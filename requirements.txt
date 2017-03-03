@@ -1,3 +1,6 @@
 pyspark
 perceval
 meetup-api
+urllib3
+beautifulsoup4
+requests
