@@ -4,3 +4,5 @@ meetup-api
 urllib3
 beautifulsoup4
 requests
+selenium
+watson-developer-cloud
