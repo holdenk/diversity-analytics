@@ -2,12 +2,13 @@
 
 class LazyDriver(object):
     _driver = None
-    
-    def get(self):
-        if self._driver is None:
+
+    @classmethod
+    def get(cls):
+        if cls._driver is None:
             from selenium import webdriver
-            self._driver = webdriver.Firefox()
-        return self._driver
+            cls._driver = webdriver.Firefox()
+        return cls._driver
 
 
 class LazyPool(object):
