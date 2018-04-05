@@ -5,11 +5,14 @@ class LazyDriver(object):
 
     @classmethod
     def get(cls):
+        import os
         if cls._driver is None:
             from selenium import webdriver
             # Configure headless mode
             options = webdriver.ChromeOptions() #Oops
             options.add_argument('headless')
+            chrome_options.add_argument('--ignore-certificate-errors')
+            chrome_uptions.add_argument("--logs /tmp/chromelogpanda{0}.log".format(os.getpid()))
             cls._driver = webdriver.Chrome(chrome_options=options)
         return cls._driver
 
