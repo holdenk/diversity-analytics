@@ -16,7 +16,7 @@ class LazyDriver(object):
             log_path = "/tmp/chromelogpanda{0}".format(os.getpid())
             if not os.path.exists(log_path):
                 os.mkdir(log_path)
-            chrome_uptions.add_argument("--log-path {0}".format(log_path))
+            chrome_options.add_argument("--log-path {0}".format(log_path))
             cls._driver = webdriver.Chrome(chrome_options=chrome_options)
         return cls._driver
 
