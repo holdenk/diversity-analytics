@@ -13,7 +13,6 @@ class LazyDriver(object):
             from selenium import webdriver
             # Configure headless mode
             chrome_options = webdriver.ChromeOptions() #Oops
-            chrome_options.add_argument('headless')
             chrome_options.add_argument('--verbose')
             chrome_options.add_argument('--ignore-certificate-errors')
             log_path = "/tmp/chromelogpanda{0}".format(os.getpid())
