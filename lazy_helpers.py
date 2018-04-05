@@ -7,7 +7,7 @@ class LazyDriver(object):
     def get(cls):
         if cls._driver is None:
             from selenium import webdriver
-            options = webdriver.ChromeOptions()
+            options = webdriver.ChromeOptions() #Oops
             options.add_argument('headless')
             cls._driver = webdriver.Chrome(options)
         return cls._driver
