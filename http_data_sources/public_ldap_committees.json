@@ -1,26 +1,12 @@
 {
-  "lastTimestamp": "20170301021513Z",
+  "lastTimestamp": "20180403183845Z",
   "committees": {
-    "abdera": {
-      "createTimestamp": "20100210202116Z",
-      "modifyTimestamp": "20100614203655Z",
-      "roster": [
-        "antelder",
-        "calavera",
-        "ckoppelt",
-        "dandiep",
-        "jancona",
-        "jmsnell",
-        "jrduncans",
-        "rooneg",
-        "ugo"
-      ]
-    },
     "accumulo": {
-      "createTimestamp": "20120323210423Z",
-      "modifyTimestamp": "20161103142247Z",
+      "createTimestamp": "20170713020428Z",
+      "modifyTimestamp": "20180323214519Z",
       "roster": [
         "acordova",
+        "adamjshook",
         "afuchs",
         "bhavanki",
         "billie",
@@ -36,36 +22,23 @@
         "ecn",
         "edcoleman",
         "elserj",
+        "ibella",
+        "jmark99",
         "jtrost",
         "kturner",
+        "lstavarez",
         "mdrob",
         "medined",
         "mjwall",
         "mmiller",
         "mwalch",
+        "ngf",
         "phrocker",
         "rweeks",
         "shickey",
         "ujustgotbilld",
         "vikrams",
         "vines"
-      ]
-    },
-    "ace": {
-      "createTimestamp": "20120102142133Z",
-      "modifyTimestamp": "20130718091532Z",
-      "roster": [
-        "angelos",
-        "bramk",
-        "btopping",
-        "clement",
-        "cziegeler",
-        "jawi",
-        "jbonofre",
-        "marrs",
-        "paulb",
-        "pauls",
-        "tonit"
       ]
     },
     "activemq": {
@@ -100,7 +73,7 @@
     },
     "airavata": {
       "createTimestamp": "20120920073719Z",
-      "modifyTimestamp": "20161212050113Z",
+      "modifyTimestamp": "20180306161754Z",
       "roster": [
         "amilaj",
         "aslom",
@@ -108,10 +81,12 @@
         "chathura",
         "chathuri",
         "chinthaka",
+        "dimuthuupe",
         "eroma",
         "hemapani",
         "heshan",
         "lahiru",
+        "machristie",
         "mattmann",
         "milinda",
         "mpierce",
@@ -148,7 +123,7 @@
     },
     "ambari": {
       "createTimestamp": "20131121161433Z",
-      "modifyTimestamp": "20161117214918Z",
+      "modifyTimestamp": "20180328184726Z",
       "roster": [
         "ababiichuk",
         "acmurthy",
@@ -156,6 +131,7 @@
         "alejandro",
         "alexantonenko",
         "atkach",
+        "avijayan",
         "berndf",
         "billie",
         "croberts",
@@ -187,26 +163,28 @@
         "srimanth",
         "subin",
         "swagle",
+        "swapan",
         "tbeerbower",
         "vgogate",
         "vikram",
         "vinodkv",
+        "vivekratnavel",
         "xiwang",
         "yusaku"
       ]
     },
     "ant": {
       "createTimestamp": "20100210202116Z",
-      "modifyTimestamp": "20141004042430Z",
+      "modifyTimestamp": "20180116064718Z",
       "roster": [
         "antoine",
         "bodewig",
-        "bruce",
         "chrisw",
         "conor",
         "ddevienne",
         "ehatcher",
         "hibou",
+        "jaikiran",
         "jglick",
         "jhm",
         "jkf",
@@ -224,13 +202,14 @@
     },
     "any23": {
       "createTimestamp": "20120911172658Z",
-      "modifyTimestamp": "20161020045225Z",
+      "modifyTimestamp": "20180226164619Z",
       "roster": [
         "andy",
         "ansell",
-        "band",
         "dpalmisano",
         "giovanni",
+        "hansbrende",
+        "jgrzebyta",
         "lewismc",
         "mattmann",
         "mostarda",
@@ -244,7 +223,7 @@
     },
     "apex": {
       "createTimestamp": "20160520233430Z",
-      "modifyTimestamp": "20160907013409Z",
+      "modifyTimestamp": "20171013010742Z",
       "roster": [
         "akekre",
         "boyork",
@@ -260,12 +239,13 @@
         "pramod",
         "ptgoetz",
         "thw",
+        "tushar",
         "vrozov"
       ]
     },
     "apr": {
       "createTimestamp": "20100210202116Z",
-      "modifyTimestamp": "20161030233745Z",
+      "modifyTimestamp": "20170912202246Z",
       "roster": [
         "aaron",
         "bjh",
@@ -288,6 +268,7 @@
         "jorton",
         "jwoolley",
         "kfogel",
+        "kotkov",
         "martin",
         "maxb",
         "minfrin",
@@ -311,12 +292,13 @@
     },
     "archiva": {
       "createTimestamp": "20100210202116Z",
-      "modifyTimestamp": "20140727233256Z",
+      "modifyTimestamp": "20170402104258Z",
       "roster": [
         "brett",
         "carlos",
         "epunzalan",
         "jbonofre",
+        "martin_s",
         "nicolas",
         "oching",
         "olamy",
@@ -325,8 +307,9 @@
     },
     "aries": {
       "createTimestamp": "20110102232121Z",
-      "modifyTimestamp": "20151214102431Z",
+      "modifyTimestamp": "20170530170524Z",
       "roster": [
+        "alien11689",
         "chirino",
         "cschneider",
         "cumminsh",
@@ -368,10 +351,11 @@
     },
     "arrow": {
       "createTimestamp": "20160125175307Z",
-      "modifyTimestamp": "20161027234702Z",
+      "modifyTimestamp": "20180316205024Z",
       "roster": [
         "adeneche",
         "alexlevenson",
+        "cpcloud",
         "hg",
         "jacques",
         "jake",
@@ -379,20 +363,23 @@
         "jhyde",
         "json",
         "julien",
+        "kou",
         "marcel",
         "parthc",
+        "pcmoritz",
         "ptgoetz",
         "rxin",
         "smp",
         "stack",
         "tdunning",
         "todd",
+        "uwe",
         "wesm"
       ]
     },
     "asterixdb": {
       "createTimestamp": "20160521101326Z",
-      "modifyTimestamp": "20170105220429Z",
+      "modifyTimestamp": "20180202183534Z",
       "roster": [
         "amoudi",
         "ate",
@@ -420,12 +407,50 @@
         "tsotras",
         "vinayakb",
         "wangsaeu",
+        "xikui",
         "zheilbron"
+      ]
+    },
+    "atlas": {
+      "createTimestamp": "20170118154252Z",
+      "modifyTimestamp": "20180109151209Z",
+      "roster": [
+        "aa",
+        "acmurthy",
+        "apoorvnaik",
+        "ayubpathan",
+        "bstortz",
+        "darshankumar",
+        "dfusaro",
+        "dkantor",
+        "dmarkwat",
+        "dossett",
+        "jitendra",
+        "jmaron",
+        "jnhagelberg",
+        "kalyanikashikar",
+        "kbhatt",
+        "madhan",
+        "mitchschussler",
+        "nixon",
+        "rhbutani",
+        "sarath",
+        "shwethags",
+        "sriksun",
+        "sumasai",
+        "suresh",
+        "svimal2106",
+        "tbeerbower",
+        "tjbchris",
+        "venkatesh",
+        "venkatrangan",
+        "vinodkv",
+        "yhemanth"
       ]
     },
     "attic": {
       "createTimestamp": "20100210202116Z",
-      "modifyTimestamp": "20150821205433Z",
+      "modifyTimestamp": "20180321171640Z",
       "roster": [
         "bayard",
         "brett",
@@ -436,6 +461,7 @@
         "gianugo",
         "hboutemy",
         "henkp",
+        "jani",
         "jeremias",
         "jim",
         "mads",
@@ -451,7 +477,7 @@
     },
     "aurora": {
       "createTimestamp": "20150326180943Z",
-      "modifyTimestamp": "20170301021513Z",
+      "modifyTimestamp": "20180129200334Z",
       "roster": [
         "benh",
         "dlester",
@@ -466,6 +492,7 @@
         "maxim",
         "mchucarroll",
         "mehrdad",
+        "renan",
         "serb",
         "sniemitz",
         "wfarner",
@@ -475,7 +502,7 @@
     },
     "avro": {
       "createTimestamp": "20100510202844Z",
-      "modifyTimestamp": "20161217211216Z",
+      "modifyTimestamp": "20170413235102Z",
       "roster": [
         "blue",
         "brucem",
@@ -492,13 +519,14 @@
         "sbanacho",
         "scottcarey",
         "sharad",
+        "suraj",
         "thiru",
         "tomwhite"
       ]
     },
     "axis": {
-      "createTimestamp": "20100214003442Z",
-      "modifyTimestamp": "20150803161238Z",
+      "createTimestamp": "20170628123710Z",
+      "modifyTimestamp": "20171207142029Z",
       "roster": [
         "ajith",
         "amantaut",
@@ -540,6 +568,7 @@
         "pini",
         "prabath",
         "pzf",
+        "rafaelb",
         "robertlazarski",
         "rott",
         "ruchithf",
@@ -565,12 +594,14 @@
     },
     "bahir": {
       "createTimestamp": "20160521101838Z",
-      "modifyTimestamp": "20170104191328Z",
+      "modifyTimestamp": "20170406172559Z",
       "roster": [
+        "ckadner",
         "jbonofre",
         "lresende",
         "mattmann",
         "mridulm80",
+        "rmetzger",
         "rxin",
         "stevel",
         "vanzin"
@@ -578,19 +609,23 @@
     },
     "beam": {
       "createTimestamp": "20161221230709Z",
-      "modifyTimestamp": "20161221230709Z",
+      "modifyTimestamp": "20171109223257Z",
       "roster": [
         "aljoscha",
+        "altay",
         "amitsela",
+        "aviemzur",
         "bchambers",
         "davor",
         "dhalperi",
         "frances",
+        "iemejia",
         "jbonofre",
         "jwills",
         "kenn",
         "lcwik",
         "mxm",
+        "reuvenlax",
         "robertwb",
         "sewen",
         "takidau"
@@ -598,11 +633,12 @@
     },
     "bigtop": {
       "createTimestamp": "20120920073952Z",
-      "modifyTimestamp": "20160122225619Z",
+      "modifyTimestamp": "20171127145919Z",
       "roster": [
         "abayer",
         "apurtell",
         "arcilla",
+        "asanjar",
         "bmahe",
         "cos",
         "edwardyoon",
@@ -612,6 +648,7 @@
         "jamespage",
         "jay",
         "kaiyzen",
+        "kwmonroe",
         "mackrorysd",
         "oflebbe",
         "phunt",
@@ -628,7 +665,7 @@
     },
     "bloodhound": {
       "createTimestamp": "20130326223411Z",
-      "modifyTimestamp": "20170108014220Z",
+      "modifyTimestamp": "20170815000851Z",
       "roster": [
         "andrej",
         "asemonella",
@@ -643,27 +680,33 @@
         "matevz",
         "mpoole",
         "peter",
-        "rjollos",
         "saintgermain"
       ]
     },
     "bookkeeper": {
       "createTimestamp": "20141126211941Z",
-      "modifyTimestamp": "20160526204229Z",
+      "modifyTimestamp": "20180223075219Z",
       "roster": [
         "breed",
+        "drusek",
+        "eolivelli",
+        "fcuny",
         "fpj",
+        "hsaputra",
         "ivank",
         "jiannan",
+        "jujjuri",
+        "lstewart",
         "mmerli",
         "rakeshr",
         "sijie",
-        "umamahesh"
+        "umamahesh",
+        "zhaijia"
       ]
     },
     "brooklyn": {
       "createTimestamp": "20151201195054Z",
-      "modifyTimestamp": "20170208094019Z",
+      "modifyTimestamp": "20171031144732Z",
       "roster": [
         "aledsage",
         "andreaturli",
@@ -674,10 +717,12 @@
         "hadrian",
         "heneveld",
         "jbonofre",
+        "m4rkmckenna",
         "olamy",
         "richard",
         "sjcorbett",
-        "svet"
+        "svet",
+        "tbouron"
       ]
     },
     "buildr": {
@@ -695,7 +740,7 @@
     },
     "bval": {
       "createTimestamp": "20120218014438Z",
-      "modifyTimestamp": "20131202165251Z",
+      "modifyTimestamp": "20180118175135Z",
       "roster": [
         "allee8285",
         "carlosvara",
@@ -703,7 +748,6 @@
         "dwoods",
         "gpetracek",
         "jrbauer",
-        "kevan",
         "lresende",
         "matzew",
         "mbenson",
@@ -715,7 +759,7 @@
     },
     "calcite": {
       "createTimestamp": "20151027164057Z",
-      "modifyTimestamp": "20170109181305Z",
+      "modifyTimestamp": "20170404193924Z",
       "roster": [
         "amansinha",
         "elserj",
@@ -728,6 +772,7 @@
         "jni",
         "jpullokk",
         "maryannxue",
+        "mmior",
         "ndimiduk",
         "stevenn",
         "tdunning",
@@ -736,7 +781,7 @@
     },
     "camel": {
       "createTimestamp": "20100210202116Z",
-      "modifyTimestamp": "20161005220541Z",
+      "modifyTimestamp": "20170716163414Z",
       "roster": [
         "acosentino",
         "akarpe",
@@ -766,16 +811,35 @@
         "rajdavies",
         "raulk",
         "slewis",
-        "wtam"
+        "wtam",
+        "zregvart"
+      ]
+    },
+    "carbondata": {
+      "createTimestamp": "20170419193128Z",
+      "modifyTimestamp": "20180109023550Z",
+      "roster": [
+        "chenliang613",
+        "hsaputra",
+        "jackylk",
+        "jarray888",
+        "jbonofre",
+        "jihongma",
+        "kumarvishal09",
+        "qiangcai",
+        "ravipesala",
+        "umamahesh",
+        "vimaldas"
       ]
     },
     "cassandra": {
       "createTimestamp": "20100313173451Z",
-      "modifyTimestamp": "20161024200528Z",
+      "modifyTimestamp": "20180403021010Z",
       "roster": [
         "aleksey",
         "amorton",
         "antelder",
+        "bdeggleston",
         "brandonwilliams",
         "dbrosius",
         "eevans",
@@ -786,11 +850,16 @@
         "jbellis",
         "jfarrell",
         "jjirsa",
+        "jmckenzie",
         "junrao",
         "kohlisankalp",
+        "marcuse",
         "mriou",
         "mshuler",
+        "rustyrazorblade",
+        "samt",
         "slebresne",
+        "spod",
         "tylerhobbs",
         "xedin",
         "zznate"
@@ -798,7 +867,7 @@
     },
     "cayenne": {
       "createTimestamp": "20100210202116Z",
-      "modifyTimestamp": "20160413104221Z",
+      "modifyTimestamp": "20170626202337Z",
       "roster": [
         "aadamchik",
         "amaniatis",
@@ -807,6 +876,7 @@
         "kmenard",
         "mgentry",
         "mkienenb",
+        "ntimofeev",
         "skolbachev"
       ]
     },
@@ -825,7 +895,7 @@
     },
     "chemistry": {
       "createTimestamp": "20110222044253Z",
-      "modifyTimestamp": "20141211101810Z",
+      "modifyTimestamp": "20170923081529Z",
       "roster": [
         "bchevallereau",
         "bs",
@@ -846,6 +916,7 @@
         "jpotts",
         "karstene",
         "lgross",
+        "lmignon",
         "mduerig",
         "mjohnson",
         "nick",
@@ -935,13 +1006,12 @@
     },
     "cloudstack": {
       "createTimestamp": "20130321054254Z",
-      "modifyTimestamp": "20170113162546Z",
+      "modifyTimestamp": "20171206150217Z",
       "roster": [
         "ahuang",
         "akarasulu",
         "alena1108",
         "animesh",
-        "bhaisaab",
         "boris",
         "chipchilders",
         "chiradeep",
@@ -975,10 +1045,14 @@
         "rafael",
         "rajani",
         "remi",
+        "resmo",
+        "rohit",
         "sebgoa",
         "sweller",
         "swill",
+        "syed",
         "tsp",
+        "weizhou",
         "widodh",
         "willchan"
       ]
@@ -1023,21 +1097,24 @@
     },
     "comdev": {
       "createTimestamp": "20100210202116Z",
-      "modifyTimestamp": "20161115185959Z",
+      "modifyTimestamp": "20180328144237Z",
       "roster": [
         "bdelacretaz",
         "curcuru",
         "hboutemy",
+        "holivier",
         "humbedooh",
         "isabel",
         "jani",
         "jim",
         "kmarsden",
         "lresende",
+        "nacx",
         "nick",
         "noel",
         "norman",
         "pctony",
+        "piergiorgio",
         "rbowen",
         "rgardler",
         "rvs",
@@ -1045,19 +1122,21 @@
         "sgala",
         "sharan",
         "smarru",
+        "solomax",
         "tdunning",
         "uli"
       ]
     },
     "commons": {
       "createTimestamp": "20100210202116Z",
-      "modifyTimestamp": "20161027165844Z",
+      "modifyTimestamp": "20170701162550Z",
       "roster": [
         "billbarker",
         "bodewig",
         "brentworden",
         "britter",
         "bspeakmon",
+        "chtompki",
         "damjan",
         "dbrosius",
         "dennisl",
@@ -1080,6 +1159,7 @@
         "niallp",
         "oheger",
         "olamy",
+        "pascalschumacher",
         "pietsch",
         "rgoers",
         "rony",
@@ -1093,7 +1173,7 @@
     },
     "cordova": {
       "createTimestamp": "20121022232716Z",
-      "modifyTimestamp": "20170123184911Z",
+      "modifyTimestamp": "20180214091254Z",
       "roster": [
         "abub",
         "agrieve",
@@ -1110,6 +1190,7 @@
         "bowserj",
         "braden",
         "brianleroux",
+        "brodybits",
         "carynbear",
         "cguiraud",
         "csantanapr",
@@ -1132,6 +1213,7 @@
         "hollyschinsky",
         "ian",
         "jamesjong",
+        "janpio",
         "jcesarmobile",
         "jeffheifetz",
         "jrobitaille",
@@ -1151,6 +1233,7 @@
         "mwbrooks",
         "naika",
         "nikhilkh",
+        "nimatr",
         "omefire",
         "pmuellr",
         "pplaquette",
@@ -1176,6 +1259,7 @@
         "tripod",
         "victorsh",
         "viras",
+        "vishalmishra",
         "wildabeast",
         "yohei",
         "zalun",
@@ -1184,7 +1268,7 @@
     },
     "couchdb": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20151019104529Z",
+      "modifyTimestamp": "20171107072224Z",
       "roster": [
         "andywenk",
         "davisp",
@@ -1199,17 +1283,17 @@
         "rnewson",
         "robertkowalski",
         "twl",
+        "vatamane",
         "wohali"
       ]
     },
     "creadur": {
       "createTimestamp": "20120507181425Z",
-      "modifyTimestamp": "20160830122439Z",
+      "modifyTimestamp": "20180323174357Z",
       "roster": [
         "brianf",
         "crossley",
         "dblevins",
-        "dennisl",
         "gmcdonald",
         "jochen",
         "khmarbaise",
@@ -1276,12 +1360,13 @@
     },
     "curator": {
       "createTimestamp": "20131101235337Z",
-      "modifyTimestamp": "20150723215509Z",
+      "modifyTimestamp": "20170328223542Z",
       "roster": [
         "cammckenzie",
         "cheddar",
         "dragonsinth",
         "enis",
+        "fangmin",
         "iocanel",
         "lresende",
         "mahadev",
@@ -1293,7 +1378,7 @@
     },
     "cxf": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20160919135654Z",
+      "modifyTimestamp": "20171103191259Z",
       "roster": [
         "ashakirin",
         "asoldano",
@@ -1301,6 +1386,7 @@
         "coheigea",
         "cschneider",
         "davidb",
+        "deki",
         "dkulp",
         "dsosnoski",
         "eglynn",
@@ -1319,6 +1405,23 @@
         "seanoc",
         "sergeyb",
         "ulhasbhole"
+      ]
+    },
+    "datafu": {
+      "createTimestamp": "20180221205219Z",
+      "modifyTimestamp": "20180221205219Z",
+      "roster": [
+        "cestella",
+        "evion",
+        "eyal",
+        "jarcec",
+        "jwills",
+        "mhayes",
+        "mitultiwari",
+        "rjurney",
+        "rvs",
+        "samshah",
+        "wvaughan"
       ]
     },
     "db": {
@@ -1370,21 +1473,6 @@
         "tv"
       ]
     },
-    "deltacloud": {
-      "createTimestamp": "20111120095813Z",
-      "modifyTimestamp": "20130719063724Z",
-      "roster": [
-        "cctrieloff",
-        "clalance",
-        "dkoper",
-        "jim",
-        "lutter",
-        "marios",
-        "mfojtik",
-        "spark",
-        "woodser"
-      ]
-    },
     "deltaspike": {
       "createTimestamp": "20130528144631Z",
       "modifyTimestamp": "20160519174440Z",
@@ -1408,14 +1496,6 @@
         "sbryzak",
         "struberg",
         "tandraschko"
-      ]
-    },
-    "devicemap": {
-      "createTimestamp": "20141126214104Z",
-      "modifyTimestamp": "20161114135212Z",
-      "roster": [
-        "radu",
-        "wkeil"
       ]
     },
     "directory": {
@@ -1442,14 +1522,31 @@
         "szoerner"
       ]
     },
+    "drat": {
+      "createTimestamp": "20170926154201Z",
+      "modifyTimestamp": "20180227212102Z",
+      "roster": [
+        "brianf",
+        "francus",
+        "joyce",
+        "karanjeet",
+        "lewismc",
+        "magicaltrout",
+        "mattmann",
+        "pottlinger",
+        "pramirez",
+        "tpalsulich",
+        "wmb"
+      ]
+    },
     "drill": {
       "createTimestamp": "20141126224815Z",
-      "modifyTimestamp": "20161007010030Z",
+      "modifyTimestamp": "20180130213131Z",
       "roster": [
         "adi",
         "amansinha",
+        "arina",
         "hg",
-        "jacques",
         "jason",
         "jhyde",
         "jni",
@@ -1457,6 +1554,7 @@
         "kbotzum",
         "mehant",
         "parthc",
+        "progers",
         "smp",
         "srivas",
         "sudheesh",
@@ -1468,11 +1566,12 @@
     },
     "eagle": {
       "createTimestamp": "20161221230714Z",
-      "modifyTimestamp": "20161221230714Z",
+      "modifyTimestamp": "20170406000324Z",
       "roster": [
         "arunmanoharan",
         "cgupta",
         "dazhou",
+        "denglg",
         "hao",
         "hdendukuri",
         "jhyde",
@@ -1556,16 +1655,34 @@
         "walkerr"
       ]
     },
+    "fineract": {
+      "createTimestamp": "20170419193124Z",
+      "modifyTimestamp": "20171014064931Z",
+      "roster": [
+        "avikg",
+        "edcable",
+        "gsaini",
+        "ishan1604",
+        "jim",
+        "mage",
+        "myrle",
+        "nazeer1100126",
+        "rajuan",
+        "sheyden",
+        "terencemo",
+        "vishwasbabu",
+        "vorburger"
+      ]
+    },
     "flex": {
       "createTimestamp": "20130104053019Z",
-      "modifyTimestamp": "20170122150950Z",
+      "modifyTimestamp": "20171212195406Z",
       "roster": [
         "aharui",
         "bigosmallm",
         "carlosrovira",
         "cdutz",
         "cframpton",
-        "cherreman",
         "chrsmrtn",
         "cmastrandrea",
         "czadra",
@@ -1596,6 +1713,7 @@
         "mkessler",
         "mschmalle",
         "myaiser",
+        "okrueger",
         "pent",
         "peterelst",
         "piotrz",
@@ -1603,7 +1721,6 @@
         "rduartes",
         "s9tpepper",
         "scottguthmann",
-        "sdelamater",
         "tink",
         "tomc",
         "wave",
@@ -1612,11 +1729,13 @@
     },
     "flink": {
       "createTimestamp": "20150106170856Z",
-      "modifyTimestamp": "20150702153450Z",
+      "modifyTimestamp": "20170726131624Z",
       "roster": [
         "aljoscha",
+        "chesnay",
         "fhueske",
         "gates",
+        "greg",
         "gyfora",
         "hsaputra",
         "ktzoumas",
@@ -1627,6 +1746,7 @@
         "ssc",
         "trohrmann",
         "twalthr",
+        "tzulitai",
         "uce",
         "vasia",
         "warneke"
@@ -1634,14 +1754,16 @@
     },
     "flume": {
       "createTimestamp": "20120705031835Z",
-      "modifyTimestamp": "20141104221744Z",
+      "modifyTimestamp": "20171106211745Z",
       "roster": [
         "abayer",
         "ahmed",
         "arvind",
+        "bessbd",
         "brock",
         "brucem",
         "ddeeter",
+        "denes",
         "esammer",
         "henry",
         "hshreedharan",
@@ -1659,9 +1781,24 @@
         "will"
       ]
     },
+    "fluo": {
+      "createTimestamp": "20161221020106Z",
+      "modifyTimestamp": "20180320210612Z",
+      "roster": [
+        "billie",
+        "cjmctague",
+        "cjnolet",
+        "ctubbsii",
+        "drew",
+        "elserj",
+        "kennethmcfarland",
+        "kturner",
+        "mwalch"
+      ]
+    },
     "forrest": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20130408070901Z",
+      "modifyTimestamp": "20171009001450Z",
       "roster": [
         "antonio",
         "bdube",
@@ -1670,7 +1807,6 @@
         "cheche",
         "crossley",
         "diwaker",
-        "ferdinand",
         "josch",
         "rick",
         "sina",
@@ -1679,9 +1815,22 @@
         "twilliams"
       ]
     },
+    "freemarker": {
+      "createTimestamp": "20180324150533Z",
+      "modifyTimestamp": "20180325203135Z",
+      "roster": [
+        "ddekany",
+        "jacopoc",
+        "jleroux",
+        "jonesde",
+        "nanlei",
+        "wikier",
+        "woonsan"
+      ]
+    },
     "geode": {
       "createTimestamp": "20161116203131Z",
-      "modifyTimestamp": "20170213170956Z",
+      "modifyTimestamp": "20180221212546Z",
       "roster": [
         "abaker",
         "adongre",
@@ -1691,36 +1840,49 @@
         "bschuchardt",
         "cos",
         "dbarnes",
+        "dgkimura",
+        "dixie",
         "dschneider",
+        "echobravo",
         "eshu11",
+        "gosullivan",
         "gregchase",
         "hiteshkhamesra",
         "jasonhuynh",
+        "jbarrett",
         "jchen21",
         "jensdeppe",
         "jinmeiliao",
+        "joeymcallister",
         "jstewart",
         "jxblum",
         "kduling",
         "khowe",
         "klund",
         "kmiller",
+        "ladyvader",
+        "lgallinat",
         "markito",
         "mbretl",
+        "mikestolz",
         "niallp",
         "nlamba",
         "nnag",
+        "nreich",
+        "pivotalsarge",
+        "prhomberg",
         "rvs",
         "sai_boorlagadda",
         "sbawaskar",
         "udo",
         "upthewaterspout",
+        "wirebaron",
         "zhouxj"
       ]
     },
     "geronimo": {
-      "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20141024054525Z",
+      "createTimestamp": "20170728110347Z",
+      "modifyTimestamp": "20180225145545Z",
       "roster": [
         "adc",
         "akulshreshtha",
@@ -1739,23 +1901,18 @@
         "genspring",
         "gnodet",
         "hcunico",
-        "hogstrom",
         "janb",
-        "jawarner",
         "jaydm",
-        "jbohn",
         "jdillon",
         "jgenender",
-        "jlaskowski",
+        "johndament",
         "jsisson",
         "jstrachan",
         "jules",
-        "kevan",
         "linsun",
         "mcconne",
         "pmcmahan",
         "prasad",
-        "rickmcguire",
         "rmannibucau",
         "rwonly",
         "shivahr",
@@ -1786,13 +1943,14 @@
     },
     "gora": {
       "createTimestamp": "20120129081016Z",
-      "modifyTimestamp": "20170113150329Z",
+      "modifyTimestamp": "20180314211036Z",
       "roster": [
         "ab",
         "ahart",
         "alfonsonishikawa",
         "alparslanavci",
         "apgiannakidis",
+        "cguzel",
         "djkevincr",
         "dogacan",
         "drazzib",
@@ -1804,7 +1962,9 @@
         "kazk",
         "kturner",
         "lewismc",
+        "madhawa",
         "mattmann",
+        "nishadi",
         "otrack",
         "rherget",
         "rmarroquin",
@@ -1815,7 +1975,7 @@
     },
     "groovy": {
       "createTimestamp": "20151201190956Z",
-      "modifyTimestamp": "20151201191005Z",
+      "modifyTimestamp": "20170402095245Z",
       "roster": [
         "abayer",
         "blackdrag",
@@ -1823,9 +1983,25 @@
         "cos",
         "glaforge",
         "jim",
+        "jwagenleitner",
         "pascalschumacher",
         "paulk",
         "rvs"
+      ]
+    },
+    "guacamole": {
+      "createTimestamp": "20171115200718Z",
+      "modifyTimestamp": "20171120092957Z",
+      "roster": [
+        "ceharris",
+        "frode",
+        "gtrasuk",
+        "humbedooh",
+        "jbonofre",
+        "jim",
+        "jmuehlner",
+        "mjumper",
+        "vnick"
       ]
     },
     "gump": {
@@ -1847,16 +2023,18 @@
     },
     "hadoop": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20170208190219Z",
+      "modifyTimestamp": "20180123163707Z",
       "roster": [
         "aajisaka",
         "acmurthy",
+        "aengineer",
         "amareshwari",
         "arp",
         "asuresh",
         "atm",
         "bikas",
         "bobby",
+        "brahma",
         "brandonli",
         "cdouglas",
         "cmccabe",
@@ -1867,8 +2045,10 @@
         "ddas",
         "devaraj",
         "dhruba",
+        "drankye",
         "eli",
         "enis",
+        "epayne",
         "gkesavan",
         "gtcarrera9",
         "hairong",
@@ -1881,19 +2061,25 @@
         "jitendra",
         "jlowe",
         "junping_du",
+        "jzhuge",
         "kasha",
         "kihwal",
+        "kkaranasos",
         "lei",
+        "liuml07",
         "llu",
         "mahadev",
         "mattf",
         "mingma",
+        "naganarasimha_gr",
         "nigel",
         "omalley",
         "ozawa",
         "phunt",
+        "rakeshr",
         "rangadi",
         "raviprak",
+        "rchiang",
         "rkanter",
         "rohithsharmaks",
         "sandy",
@@ -1904,20 +2090,26 @@
         "sseth",
         "stack",
         "stevel",
+        "subru",
+        "sunilg",
         "suresh",
         "szetszwo",
+        "templedf",
         "tgraves",
         "todd",
         "tomwhite",
         "tucu",
         "umamahesh",
+        "varunsaxena",
         "vinayakumarb",
         "vinodkv",
         "vvasudev",
         "wang",
         "wangda",
+        "weichiu",
         "wheat9",
         "xgong",
+        "xiao",
         "xyao",
         "yhemanth",
         "yjzhangal",
@@ -1945,19 +2137,24 @@
     },
     "hbase": {
       "createTimestamp": "20100518161356Z",
-      "modifyTimestamp": "20161014181403Z",
+      "modifyTimestamp": "20180226182358Z",
       "roster": [
         "anoopsamjohn",
         "antonov",
         "apurtell",
+        "ashishsinghi",
         "busbey",
+        "chia7712",
+        "ddas",
         "dimaspivak",
         "dmeil",
         "eclark",
+        "elserj",
         "enis",
         "garyh",
         "jdcryans",
         "jeffreyz",
+        "jerryjch",
         "jgray",
         "jmhsieh",
         "jxiang",
@@ -1966,8 +2163,10 @@
         "larsgeorge",
         "larsh",
         "liyin",
+        "liyu",
         "mbautin",
         "mbertozzi",
+        "mdrob",
         "misty",
         "ndimiduk",
         "nkeywal",
@@ -1978,14 +2177,17 @@
         "syuanjiang",
         "tedyu",
         "todd",
-        "zhangduo"
+        "zghao",
+        "zhangduo",
+        "zjushch"
       ]
     },
     "helix": {
       "createTimestamp": "20140108140007Z",
-      "modifyTimestamp": "20161206040227Z",
+      "modifyTimestamp": "20170704071954Z",
       "roster": [
         "chtyim",
+        "jxue",
         "kanak",
         "kishoreg",
         "ksurlaker",
@@ -2006,12 +2208,16 @@
     },
     "hive": {
       "createTimestamp": "20101007082618Z",
-      "modifyTimestamp": "20160717165525Z",
+      "modifyTimestamp": "20180223164241Z",
       "roster": [
+        "aihuaxu",
         "athusoo",
         "brock",
+        "ctang",
         "cws",
+        "daijy",
         "ecapriolo",
+        "ekoifman",
         "gates",
         "gopalv",
         "gunther",
@@ -2021,11 +2227,15 @@
         "jdere",
         "jpullokk",
         "jssarma",
+        "jxiang",
         "kevinwilfong",
         "khorgath",
         "leftyl",
+        "lirui",
+        "mmccline",
         "namit",
         "navis",
+        "ngangam",
         "nzhang",
         "omalley",
         "prasadm",
@@ -2034,11 +2244,14 @@
         "rhbutani",
         "rmurthy",
         "sershe",
+        "spena",
         "sunchao",
         "szehon",
         "thejas",
+        "vgumashta",
         "vikram",
-        "xuefu"
+        "xuefu",
+        "ychena"
       ]
     },
     "httpcomponents": {
@@ -2058,7 +2271,7 @@
     },
     "httpd": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20170227151522Z",
+      "modifyTimestamp": "20180201045903Z",
       "roster": [
         "bjh",
         "bnicholes",
@@ -2068,6 +2281,7 @@
         "chrisd",
         "colm",
         "covener",
+        "dferradal",
         "dirkx",
         "drh",
         "druggeri",
@@ -2106,6 +2320,7 @@
         "sctemme",
         "sf",
         "steffenal",
+        "thumbs",
         "trawick",
         "wrowe",
         "ylavic"
@@ -2113,13 +2328,12 @@
     },
     "ignite": {
       "createTimestamp": "20150821154256Z",
-      "modifyTimestamp": "20150928010718Z",
+      "modifyTimestamp": "20170829223406Z",
       "roster": [
         "agoncharuk",
         "akuznetsov",
         "anovikov",
         "av",
-        "brane",
         "cos",
         "dmagda",
         "dsetrakyan",
@@ -2130,6 +2344,7 @@
         "murador",
         "nivanov",
         "ntikhonov",
+        "ptupitsyn",
         "raulk",
         "rvs",
         "sboikov",
@@ -2141,9 +2356,40 @@
         "yzhdanov"
       ]
     },
+    "impala": {
+      "createTimestamp": "20161221020106Z",
+      "modifyTimestamp": "20180403135640Z",
+      "roster": [
+        "abehm",
+        "bharathv",
+        "brock",
+        "casey",
+        "cws",
+        "dhecht",
+        "dtsirogiannis",
+        "henry",
+        "ishaan",
+        "jbapple",
+        "jrussell",
+        "jyu",
+        "kwho",
+        "lskuff",
+        "lv",
+        "marcel",
+        "mgrund",
+        "mikeb",
+        "mjacobs",
+        "sailesh",
+        "skye",
+        "tarasbob",
+        "tarmstrong",
+        "tmarshall",
+        "todd"
+      ]
+    },
     "incubator": {
-      "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20170109171932Z",
+      "createTimestamp": "20170605220032Z",
+      "modifyTimestamp": "20180403135623Z",
       "roster": [
         "aadamchik",
         "aaron",
@@ -2170,9 +2416,15 @@
         "ben",
         "benh",
         "berndf",
+        "bgchun",
+        "bigbluehat",
+        "bikas",
         "billie",
         "bimargulies",
         "bloritsch",
+        "blue",
+        "bob",
+        "bodewig",
         "brane",
         "brett",
         "brianm",
@@ -2203,6 +2455,7 @@
         "danese",
         "dashorst",
         "davidw",
+        "davor",
         "dblevins",
         "ddas",
         "deepal",
@@ -2232,7 +2485,6 @@
         "geirm",
         "gerdogdu",
         "ggregory",
-        "gianugo",
         "gmcdonald",
         "gnodet",
         "gpetracek",
@@ -2269,36 +2521,44 @@
         "jhyde",
         "jim",
         "jitendra",
+        "jleroux",
         "jlmonteiro",
         "jmclean",
         "jnioche",
         "jochen",
+        "joed",
         "joern",
         "joewitt",
         "johan",
         "johndament",
+        "jonesde",
         "joyce",
         "jstrachan",
         "jukka",
         "julien",
+        "junrao",
         "jvermillard",
         "jzb",
         "kaspersor",
         "ke4qqq",
-        "kevan",
         "kmarsden",
+        "kmcgrail",
         "kwright",
         "larsh",
         "lewismc",
+        "lmccay",
         "lresende",
         "lukehan",
         "magicaltrout",
         "mahadev",
+        "markt",
         "marrs",
         "marvin",
         "mattmann",
+        "mattsicker",
         "matzew",
         "mbenson",
+        "mck",
         "mfranklin",
         "mnour",
         "morgand",
@@ -2312,7 +2572,6 @@
         "ngn",
         "niallp",
         "nick",
-        "niclas",
         "nigel",
         "ningjiang",
         "niq",
@@ -2326,6 +2585,7 @@
         "pctony",
         "pgollucci",
         "phunt",
+        "pono",
         "pquerna",
         "pramirez",
         "ptgoetz",
@@ -2350,6 +2610,7 @@
         "rxin",
         "sanjiva",
         "sbailliez",
+        "sblackmon",
         "sdeboy",
         "senaka",
         "sewen",
@@ -2378,6 +2639,7 @@
         "thejas",
         "thorsten",
         "tillw",
+        "tnachen",
         "todd",
         "toffer",
         "tomaz",
@@ -2386,7 +2648,6 @@
         "tomwhite",
         "twilliams",
         "umamahesh",
-        "upayavira",
         "vanto",
         "venkatesh",
         "vinodkv",
@@ -2402,8 +2663,9 @@
     },
     "isis": {
       "createTimestamp": "20121104165030Z",
-      "modifyTimestamp": "20161109112956Z",
+      "modifyTimestamp": "20171010180611Z",
       "roster": [
+        "ahuber",
         "bibryam",
         "danhaywood",
         "dslaughter",
@@ -2420,11 +2682,10 @@
     },
     "jackrabbit": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20161219082228Z",
+      "modifyTimestamp": "20180306091616Z",
       "roster": [
         "adulceanu",
         "alexkli",
-        "alexparvulescu",
         "amitj",
         "angela",
         "ard",
@@ -2443,7 +2704,6 @@
         "draier",
         "eaf",
         "edgarpoce",
-        "fielding",
         "fmeschbe",
         "frm",
         "halderen",
@@ -2459,12 +2719,14 @@
         "ppiegaze",
         "reschke",
         "rhauch",
+        "rombert",
         "schans",
         "sebastien",
         "shashank",
         "shuber",
         "stefan",
         "stefanegli",
+        "stillalex",
         "sylvain",
         "thomasm",
         "tomekr",
@@ -2533,8 +2795,8 @@
       ]
     },
     "jmeter": {
-      "createTimestamp": "20111101182005Z",
-      "modifyTimestamp": "20170128211645Z",
+      "createTimestamp": "20170627124134Z",
+      "modifyTimestamp": "20170627124134Z",
       "roster": [
         "agomes",
         "fschumacher",
@@ -2588,19 +2850,38 @@
         "tcunning"
       ]
     },
+    "juneau": {
+      "createTimestamp": "20171018192251Z",
+      "modifyTimestamp": "20171018192251Z",
+      "roster": [
+        "clr",
+        "dmg",
+        "jamesbognar",
+        "jochen",
+        "johndament",
+        "phaumer",
+        "sblackmon",
+        "stain",
+        "yidonguk"
+      ]
+    },
     "kafka": {
       "createTimestamp": "20121128080208Z",
-      "modifyTimestamp": "20160818013124Z",
+      "modifyTimestamp": "20180117181804Z",
       "roster": [
         "guozhang",
         "gwenshap",
+        "ijuma",
         "jghoman",
+        "jgus",
         "jjkoshy",
         "jkreps",
         "joestein",
+        "jqin",
         "junrao",
         "nehanarkhede",
-        "prashanthmenon"
+        "prashanthmenon",
+        "rsivaram"
       ]
     },
     "karaf": {
@@ -2624,20 +2905,41 @@
         "pieber"
       ]
     },
+    "kibble": {
+      "createTimestamp": "20171018192222Z",
+      "modifyTimestamp": "20171209181640Z",
+      "roster": [
+        "cdutz",
+        "hboutemy",
+        "humbedooh",
+        "ke4qqq",
+        "lmccay",
+        "pono",
+        "rafael",
+        "rbowen",
+        "sbp",
+        "sharan",
+        "sk",
+        "ucb"
+      ]
+    },
     "knox": {
       "createTimestamp": "20140225021656Z",
-      "modifyTimestamp": "20170209170547Z",
+      "modifyTimestamp": "20180403142611Z",
       "roster": [
         "ddas",
         "dillidorai",
         "gates",
+        "jeffreyr",
         "jspeidel",
         "kminder",
+        "krisden",
         "lmccay",
         "mahadev",
         "mattmann",
         "more",
         "omalley",
+        "pzampino",
         "smohanty",
         "sumit",
         "tbeerbower",
@@ -2646,13 +2948,16 @@
     },
     "kudu": {
       "createTimestamp": "20160721032819Z",
-      "modifyTimestamp": "20161120175404Z",
+      "modifyTimestamp": "20171214002425Z",
       "roster": [
         "adar",
         "alexey",
+        "awong",
         "bchang",
         "danburkert",
         "dralves",
+        "granthenke",
+        "hahao",
         "jarcec",
         "jdcryans",
         "jfarrell",
@@ -2668,8 +2973,9 @@
     },
     "kylin": {
       "createTimestamp": "20151201224532Z",
-      "modifyTimestamp": "20160412160251Z",
+      "modifyTimestamp": "20171127054851Z",
       "roster": [
+        "billyliu",
         "gaodayue",
         "hhuang",
         "hsaputra",
@@ -2692,11 +2998,10 @@
     },
     "labs": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20140419123752Z",
+      "modifyTimestamp": "20180316151348Z",
       "roster": [
         "danny",
         "geirm",
-        "jani",
         "minfrin",
         "niallp",
         "sctemme",
@@ -2771,30 +3076,38 @@
     },
     "lucene": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20170102081859Z",
+      "modifyTimestamp": "20180402193649Z",
       "roster": [
         "ab",
         "anshum",
         "areek",
         "buschmi",
+        "cm",
         "cpoerschke",
         "ctargett",
+        "datcm",
         "doronc",
+        "dpgove",
         "dsmiley",
         "dweiss",
         "ehatcher",
+        "elyograg",
         "erick",
         "gsingers",
+        "ishan",
         "janhoy",
         "jbernste",
         "jdyer",
+        "jimczi",
         "jpountz",
         "koji",
+        "kwright",
         "markrmiller",
         "mharwood",
         "mikemccand",
         "mkhl",
         "mvg",
+        "noble",
         "otis",
         "rjernst",
         "rmuir",
@@ -2818,12 +3131,13 @@
     },
     "lucenenet": {
       "createTimestamp": "20120821131339Z",
-      "modifyTimestamp": "20141013003458Z",
+      "modifyTimestamp": "20170502064526Z",
       "roster": [
         "bodewig",
         "ccurrens",
         "digy",
         "mherndon",
+        "nightowl888",
         "paulirwin",
         "pnasser",
         "sisve",
@@ -2850,13 +3164,31 @@
         "upayavira"
       ]
     },
+    "madlib": {
+      "createTimestamp": "20170118154259Z",
+      "modifyTimestamp": "20170721134908Z",
+      "roster": [
+        "aaronfeng",
+        "akondave",
+        "atri",
+        "fmcquillan",
+        "gregchase",
+        "jim",
+        "njayaram",
+        "okislal",
+        "rashmiraghu",
+        "riyer",
+        "rvs",
+        "saerni",
+        "vatsan"
+      ]
+    },
     "mahout": {
       "createTimestamp": "20100510203008Z",
-      "modifyTimestamp": "20170228052624Z",
+      "modifyTimestamp": "20170803024419Z",
       "roster": [
         "akm",
         "apalumbo",
-        "bimargulies",
         "drew",
         "gsingers",
         "isabel",
@@ -2873,7 +3205,7 @@
     },
     "manifoldcf": {
       "createTimestamp": "20120522045558Z",
-      "modifyTimestamp": "20150904104938Z",
+      "modifyTimestamp": "20180105110037Z",
       "roster": [
         "graemes",
         "hozawa",
@@ -2886,6 +3218,7 @@
         "piergiorgio",
         "rharo",
         "ridder",
+        "schuch",
         "shinichiro",
         "simonw"
       ]
@@ -2909,17 +3242,17 @@
     },
     "maven": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20160521124420Z",
+      "modifyTimestamp": "20180112111131Z",
       "roster": [
-        "agudian",
         "aheritier",
-        "baerrach",
+        "andham",
         "bimargulies",
         "brianf",
         "cstamas",
         "dennisl",
         "dkulp",
         "evenisse",
+        "gboue",
         "hboutemy",
         "ifedorenko",
         "jvanzyl",
@@ -2939,19 +3272,25 @@
     },
     "mesos": {
       "createTimestamp": "20130707141345Z",
-      "modifyTimestamp": "20170222220706Z",
+      "modifyTimestamp": "20180319184918Z",
       "roster": [
         "alexr",
         "alig",
         "anand",
         "andrew",
+        "andschwa",
+        "arojas",
+        "bbannier",
         "benh",
         "bernd",
         "bmahler",
         "brenden",
         "brianm",
+        "chhsiao",
         "dlester",
         "dma",
+        "gilbert",
+        "grag",
         "gyliu",
         "haosdent",
         "ianh",
@@ -2959,6 +3298,7 @@
         "jieyu",
         "joris",
         "josephwu",
+        "jpeach",
         "kapil",
         "klueska",
         "matei",
@@ -2976,7 +3316,8 @@
         "tstclair",
         "vinodkone",
         "woggle",
-        "yan"
+        "yan",
+        "zhitao"
       ]
     },
     "metamodel": {
@@ -2994,6 +3335,39 @@
         "nslater",
         "sarora",
         "tomaszguzialek"
+      ]
+    },
+    "metron": {
+      "createTimestamp": "20170419193119Z",
+      "modifyTimestamp": "20171204162637Z",
+      "roster": [
+        "bjkolly",
+        "cestella",
+        "cporter",
+        "dbhirko",
+        "ddutta",
+        "dev_warlord",
+        "discovery",
+        "gvetticaden",
+        "jsirota",
+        "kirankom",
+        "leet",
+        "lmccay",
+        "lyle",
+        "mbittmann",
+        "mmiklavcic",
+        "mperez",
+        "nickallen",
+        "otto",
+        "prhodes",
+        "ptgoetz",
+        "reaperhulk",
+        "rmerriman",
+        "rurcioli",
+        "sheetal_dolas",
+        "sirsean",
+        "smogg",
+        "vinodkv"
       ]
     },
     "mina": {
@@ -3014,9 +3388,26 @@
         "ngn"
       ]
     },
+    "mnemonic": {
+      "createTimestamp": "20171115200715Z",
+      "modifyTimestamp": "20171115200715Z",
+      "roster": [
+        "apurtell",
+        "chhao01",
+        "ddutta",
+        "drankye",
+        "garyw",
+        "jamestaylor",
+        "johnu",
+        "phunt",
+        "rakeshr",
+        "umamahesh",
+        "yanpingw"
+      ]
+    },
     "myfaces": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20170206155058Z",
+      "modifyTimestamp": "20180130185620Z",
       "roster": [
         "awiner",
         "baranda",
@@ -3026,6 +3417,7 @@
         "cagatay",
         "deki",
         "dennisbyrne",
+        "embreijo",
         "gcrawford",
         "gmuellan",
         "gpetracek",
@@ -3063,9 +3455,34 @@
         "wtlucy"
       ]
     },
+    "mynewt": {
+      "createTimestamp": "20170118154300Z",
+      "modifyTimestamp": "20180216024650Z",
+      "roster": [
+        "aditi",
+        "andk",
+        "ccollins",
+        "gstein",
+        "janc",
+        "jim",
+        "jmclean",
+        "julian",
+        "marko",
+        "naraj",
+        "neel",
+        "paulfdietrich",
+        "peterfs",
+        "ptgoetz",
+        "rymek",
+        "sterling",
+        "utzig",
+        "vipulrahane",
+        "wes3"
+      ]
+    },
     "nifi": {
       "createTimestamp": "20150717212740Z",
-      "modifyTimestamp": "20170221195653Z",
+      "modifyTimestamp": "20171214215822Z",
       "roster": [
         "afucs",
         "aldrin",
@@ -3074,24 +3491,33 @@
         "busbey",
         "danbress",
         "devriesb",
+        "ijokarumawak",
         "jbarnabee",
         "jcarey",
         "joewitt",
         "jpercivall",
         "jskora",
+        "jstorck",
         "jwing",
         "markap14",
         "mattyb149",
         "mcgilman",
+        "mosermw",
+        "ozhurakousky",
+        "phrocker",
+        "pvillard",
+        "scottyaslan",
         "taftster",
-        "tkurc"
+        "tkurc",
+        "ymdavis"
       ]
     },
     "nutch": {
       "createTimestamp": "20100511040531Z",
-      "modifyTimestamp": "20170131083329Z",
+      "modifyTimestamp": "20170613211907Z",
       "roster": [
         "asitang",
+        "blackice",
         "fenglu",
         "jnioche",
         "jorgelbg",
@@ -3134,7 +3560,7 @@
     },
     "ofbiz": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20170224115538Z",
+      "modifyTimestamp": "20180319100442Z",
       "roster": [
         "apatel",
         "ashish",
@@ -3152,6 +3578,7 @@
         "lektran",
         "mbrohl",
         "nmalin",
+        "paulfoxworthy",
         "sharan",
         "taher",
         "yoavs"
@@ -3192,7 +3619,7 @@
     },
     "oodt": {
       "createTimestamp": "20101123072853Z",
-      "modifyTimestamp": "20151011145359Z",
+      "modifyTimestamp": "20170828145437Z",
       "roster": [
         "ahart",
         "angela_wang",
@@ -3206,6 +3633,7 @@
         "gmcdonald",
         "goodale",
         "ianh",
+        "imesha",
         "joshuaga",
         "joyce",
         "jshughes",
@@ -3230,6 +3658,7 @@
         "smcclees",
         "sparkler",
         "starchmd",
+        "sujen",
         "sumarlidason",
         "thomas",
         "tpalsulich",
@@ -3241,21 +3670,25 @@
     },
     "oozie": {
       "createTimestamp": "20120907205631Z",
-      "modifyTimestamp": "20150812001442Z",
+      "modifyTimestamp": "20180131210610Z",
       "roster": [
         "anew",
         "angeloh",
+        "asasvari",
         "brookwc",
         "ddas",
         "gates",
+        "gezapeti",
         "harsh",
         "kamrul",
         "mayank",
         "mona",
+        "pbacsko",
         "puru",
         "rkanter",
         "rohini",
         "ryota",
+        "satishsaley",
         "shwethags",
         "tucu",
         "virag"
@@ -3263,7 +3696,7 @@
     },
     "openjpa": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20160915115313Z",
+      "modifyTimestamp": "20170815110915Z",
       "roster": [
         "allee8285",
         "awhite",
@@ -3273,6 +3706,7 @@
         "geirm",
         "hthomann",
         "ilgrosso",
+        "jgrassel",
         "jrbauer",
         "kwsutter",
         "mikedd",
@@ -3284,13 +3718,15 @@
     },
     "openmeetings": {
       "createTimestamp": "20130128021126Z",
-      "modifyTimestamp": "20160304044746Z",
+      "modifyTimestamp": "20170805154259Z",
       "roster": [
         "a_horuzhenko",
         "aaf",
         "albus",
+        "coscend",
         "daehn",
         "danpa",
+        "dbezhetskov",
         "dkandrov",
         "eschwert",
         "ggrekhov",
@@ -3313,23 +3749,28 @@
     },
     "opennlp": {
       "createTimestamp": "20120218014944Z",
-      "modifyTimestamp": "20170115163058Z",
+      "modifyTimestamp": "20171010085853Z",
       "roster": [
         "colen",
+        "druss",
         "gsingers",
         "isabel",
         "jbaldrid",
         "jkosin",
         "joern",
+        "jzemerick",
+        "kinow",
+        "koji",
         "ragerri",
         "smarthi",
+        "thygesen",
         "tommaso",
         "tsmorton"
       ]
     },
     "openoffice": {
       "createTimestamp": "20121025022816Z",
-      "modifyTimestamp": "20170207201419Z",
+      "modifyTimestamp": "20171219211605Z",
       "roster": [
         "af",
         "alg",
@@ -3347,20 +3788,23 @@
         "jim",
         "jsc",
         "khirano",
+        "knmc",
         "malte",
         "marcus",
         "mayongl",
         "mechtilde",
         "mikeadvo",
+        "mseidel",
         "pats",
         "pescetti",
+        "petko",
         "regina",
         "wave"
       ]
     },
     "openwebbeans": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20140615085522Z",
+      "modifyTimestamp": "20171009085755Z",
       "roster": [
         "arne",
         "bergmark",
@@ -3372,26 +3816,29 @@
         "jlmonteiro",
         "kevan",
         "rmannibucau",
+        "rsandtner",
         "struberg",
         "tandraschko"
       ]
     },
     "orc": {
       "createTimestamp": "20150423214932Z",
-      "modifyTimestamp": "20170104162401Z",
+      "modifyTimestamp": "20170906174928Z",
       "roster": [
         "asandryh",
         "cdouglas",
+        "ekoifman",
         "gates",
         "gopalv",
         "leftyl",
+        "mdeepak",
         "omalley",
         "prasanthj"
       ]
     },
     "parquet": {
       "createTimestamp": "20150422232349Z",
-      "modifyTimestamp": "20160902212303Z",
+      "modifyTimestamp": "20170328034501Z",
       "roster": [
         "alexlevenson",
         "aniket486",
@@ -3413,24 +3860,29 @@
         "tianshuo",
         "todd",
         "tomwhite",
+        "uwe",
         "wesleypeck",
         "wesm"
       ]
     },
     "pdfbox": {
       "createTimestamp": "20100223133513Z",
-      "modifyTimestamp": "20160919113038Z",
+      "modifyTimestamp": "20171016100313Z",
       "roster": [
         "adam",
         "blitchfield",
         "carrier",
         "danielwilson",
         "gbailleul",
+        "hennejg",
+        "holdersn",
         "jahewson",
         "jeremias",
         "kjackson",
         "koch",
+        "koehlecn",
         "lehmi",
+        "mmayer",
         "msahyoun",
         "pkoch",
         "tallison",
@@ -3459,7 +3911,7 @@
     },
     "phoenix": {
       "createTimestamp": "20140602025534Z",
-      "modifyTimestamp": "20160810153318Z",
+      "modifyTimestamp": "20171003172854Z",
       "roster": [
         "ankit",
         "anoopsamjohn",
@@ -3481,6 +3933,7 @@
         "ramkrishna",
         "ravimagham",
         "samarth",
+        "ssa",
         "stack",
         "stevenn",
         "stoens",
@@ -3525,14 +3978,16 @@
     },
     "poi": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20161005061521Z",
+      "modifyTimestamp": "20171121132213Z",
       "roster": [
+        "abearez",
         "amol",
         "avik",
         "cedricwalter",
         "centic",
         "dmui",
         "dnorth",
+        "fanningpj",
         "glens",
         "gwoolsey",
         "jheight",
@@ -3559,7 +4014,7 @@
     },
     "polygene": {
       "createTimestamp": "20150324194000Z",
-      "modifyTimestamp": "20161229185345Z",
+      "modifyTimestamp": "20170612134635Z",
       "roster": [
         "akarasulu",
         "jcarman",
@@ -3571,7 +4026,8 @@
         "paulmerlin",
         "rvs",
         "smartini",
-        "soelvsten"
+        "soelvsten",
+        "stanislavm"
       ]
     },
     "portals": {
@@ -3598,6 +4054,40 @@
         "taylor",
         "weaver",
         "woonsan"
+      ]
+    },
+    "predictionio": {
+      "createTimestamp": "20171018192250Z",
+      "modifyTimestamp": "20171018192250Z",
+      "roster": [
+        "apurtell",
+        "chanlee",
+        "donald",
+        "emergentorder",
+        "felipe",
+        "hagino",
+        "jtaylor",
+        "kenneth",
+        "larsh",
+        "lresende",
+        "mars",
+        "meng",
+        "moon",
+        "mvivero",
+        "pat",
+        "paulli",
+        "shimamoto",
+        "shinsuke",
+        "simonc",
+        "takezoe",
+        "tchan",
+        "tjambor",
+        "tovbinm",
+        "vitaly",
+        "yev",
+        "yin",
+        "yipjustin",
+        "ziemin"
       ]
     },
     "qpid": {
@@ -3646,8 +4136,9 @@
     },
     "ranger": {
       "createTimestamp": "20170118200901Z",
-      "modifyTimestamp": "20170118200901Z",
+      "modifyTimestamp": "20171216121553Z",
       "roster": [
+        "abhay",
         "alok",
         "bganesan",
         "bosco",
@@ -3669,13 +4160,14 @@
     },
     "reef": {
       "createTimestamp": "20151201215352Z",
-      "modifyTimestamp": "20151201215413Z",
+      "modifyTimestamp": "20170929123100Z",
       "roster": [
         "afchung90",
         "bgchun",
         "cdouglas",
         "chobrian",
         "dongjoon",
+        "dougservice",
         "gwkim",
         "gwlee",
         "johnyangk",
@@ -3696,8 +4188,9 @@
     },
     "river": {
       "createTimestamp": "20110210024755Z",
-      "modifyTimestamp": "20161105021949Z",
+      "modifyTimestamp": "20171201052018Z",
       "roster": [
+        "bhamail",
         "btmurphy",
         "chrisdolan",
         "dancres",
@@ -3711,6 +4204,22 @@
         "waldo"
       ]
     },
+    "rocketmq": {
+      "createTimestamp": "20170926154201Z",
+      "modifyTimestamp": "20170926154201Z",
+      "roster": [
+        "bsnyder",
+        "dongeforever",
+        "jim",
+        "jmclean",
+        "lizhanhui",
+        "lollipop",
+        "ningjiang",
+        "vintagewang",
+        "vongosling",
+        "yukon"
+      ]
+    },
     "roller": {
       "createTimestamp": "20100210202117Z",
       "modifyTimestamp": "20151206203341Z",
@@ -3722,19 +4231,41 @@
         "snoopdave"
       ]
     },
+    "royale": {
+      "createTimestamp": "20170926154202Z",
+      "modifyTimestamp": "20170926154202Z",
+      "roster": [
+        "aharui",
+        "bigosmallm",
+        "carlosrovira",
+        "erikdebruin",
+        "fthomas",
+        "harbs",
+        "joshtynjala",
+        "mschmalle",
+        "okrueger",
+        "pent",
+        "piotrz",
+        "wave",
+        "yishayw"
+      ]
+    },
     "samza": {
       "createTimestamp": "20150123165219Z",
-      "modifyTimestamp": "20151223035137Z",
+      "modifyTimestamp": "20180117181741Z",
       "roster": [
         "cpsoman",
         "criccomini",
         "garryturk",
+        "jagadish",
         "jghoman",
         "jkreps",
+        "jmakes",
         "martinkl",
         "navina",
         "nickpan47",
         "sriramsub",
+        "xinyu",
         "yanfang",
         "zjshen"
       ]
@@ -3768,8 +4299,9 @@
     },
     "sentry": {
       "createTimestamp": "20160321220742Z",
-      "modifyTimestamp": "20160608200434Z",
+      "modifyTimestamp": "20180205201248Z",
       "roster": [
+        "akolb",
         "ali",
         "anneyu",
         "asuresh",
@@ -3786,6 +4318,7 @@
         "hadi",
         "hahao",
         "jarcec",
+        "kalyan",
         "ke4qqq",
         "kramachandran",
         "lili",
@@ -3798,16 +4331,18 @@
         "raghu_mani",
         "sdp",
         "shreepadma",
+        "spena",
         "sravya",
         "tuongtruong",
         "vamsee",
+        "vspec",
         "xiaom",
         "xuefu"
       ]
     },
     "serf": {
       "createTimestamp": "20150821161753Z",
-      "modifyTimestamp": "20150821161802Z",
+      "modifyTimestamp": "20170413134342Z",
       "roster": [
         "astieger",
         "breser",
@@ -3817,6 +4352,7 @@
         "ivan",
         "jerenkrantz",
         "jim",
+        "kotkov",
         "lgo",
         "rhuijben",
         "stsp"
@@ -3824,9 +4360,10 @@
     },
     "servicemix": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20140705112818Z",
+      "modifyTimestamp": "20170315185822Z",
       "roster": [
         "aco",
+        "acosentino",
         "bsnyder",
         "ccustine",
         "chirino",
@@ -3866,7 +4403,7 @@
     },
     "sis": {
       "createTimestamp": "20120920073856Z",
-      "modifyTimestamp": "20150403025904Z",
+      "modifyTimestamp": "20170907142947Z",
       "roster": [
         "aestrada",
         "ahart",
@@ -3875,6 +4412,7 @@
         "greddin",
         "ianh",
         "joes",
+        "jsorel",
         "jwhite",
         "mattmann",
         "mlebihan",
@@ -3918,9 +4456,11 @@
     },
     "spamassassin": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20161018185135Z",
+      "modifyTimestamp": "20180305082856Z",
       "roster": [
         "axb",
+        "billcole",
+        "davej",
         "jhardin",
         "jquinn",
         "kb",
@@ -3933,21 +4473,27 @@
     },
     "spark": {
       "createTimestamp": "20140225023143Z",
-      "modifyTimestamp": "20160807014736Z",
+      "modifyTimestamp": "20180112194635Z",
       "roster": [
         "adav",
         "andrew",
         "andrewor14",
         "ankurdave",
         "bobby",
+        "dbtsai",
+        "felixcheung",
         "haoyuan",
         "harsha",
+        "holden",
+        "hvanhovell",
         "irashid",
         "jasondai",
         "jkbradley",
         "joey",
         "joshrosen",
         "kayousterhout",
+        "lian",
+        "lixiao",
         "markhamstra",
         "marmbrus",
         "matei",
@@ -3967,9 +4513,13 @@
         "tdas",
         "tgraves",
         "tomdz",
+        "vanzin",
+        "wenchen",
         "woggle",
         "xiajunluan",
-        "yhuai"
+        "yhuai",
+        "yliang",
+        "zsxwing"
       ]
     },
     "sqoop": {
@@ -4035,7 +4585,7 @@
     },
     "storm": {
       "createTimestamp": "20140917213644Z",
-      "modifyTimestamp": "20161129215317Z",
+      "modifyTimestamp": "20180403183845Z",
       "roster": [
         "abhishek",
         "afeng",
@@ -4046,6 +4596,8 @@
         "ddas",
         "dlao",
         "dossett",
+        "erik",
+        "hmclouro",
         "hustfxj",
         "jerrypeng",
         "jjackson",
@@ -4060,8 +4612,10 @@
         "parth",
         "ptgoetz",
         "redsanket",
+        "roshannaik",
         "satishd",
         "seanzhong",
+        "srdo",
         "sriharsha",
         "tdunning",
         "wheat9",
@@ -4071,60 +4625,23 @@
         "zhuoliu"
       ]
     },
-    "stratos": {
-      "createTimestamp": "20140602142533Z",
-      "modifyTimestamp": "20150925041044Z",
+    "streams": {
+      "createTimestamp": "20161221020838Z",
+      "modifyTimestamp": "20170721135013Z",
       "roster": [
-        "antelder",
-        "anuruddha",
-        "azeez",
-        "chamila",
-        "chanaka",
-        "chsnow",
-        "dakshika",
-        "damitha",
-        "ddutta",
-        "deepal",
-        "dineshb",
-        "dinithi",
-        "gayan",
-        "imesh",
-        "isuru",
-        "isuruh",
-        "jasondalycan",
-        "jeffrngu",
-        "jonathanmarsh",
-        "jzb",
-        "lahirus",
-        "lakmal",
-        "lasindu",
-        "madhura",
-        "manula",
-        "mariangela",
-        "melan",
-        "meppel",
-        "nandana",
-        "nirmal070125",
-        "nslater",
-        "plinnell",
-        "pradeepfn",
-        "pubudu",
-        "pzf",
-        "raj",
-        "ravihansa",
-        "reka",
-        "sajith",
-        "samisa",
-        "smarru",
-        "srhaque",
-        "tuna",
-        "udara",
-        "vishanth"
+        "ate",
+        "jfrazee",
+        "mfranklin",
+        "rawkintrevo",
+        "rdouglas",
+        "rebanks",
+        "sblackmon",
+        "smarthi"
       ]
     },
     "struts": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20160813104738Z",
+      "modifyTimestamp": "20171106122821Z",
       "roster": [
         "amashchenko",
         "apopescu",
@@ -4143,6 +4660,7 @@
         "pbenedict",
         "phil",
         "rgielen",
+        "sdutry",
         "tmjee",
         "wesw",
         "wsmoak"
@@ -4150,7 +4668,7 @@
     },
     "subversion": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20170214120411Z",
+      "modifyTimestamp": "20180328162511Z",
       "roster": [
         "arfrever",
         "astieger",
@@ -4196,12 +4714,13 @@
         "stsp",
         "stylesen",
         "sussman",
-        "trent"
+        "trent",
+        "troycurtisjr"
       ]
     },
     "synapse": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20160615234450Z",
+      "modifyTimestamp": "20170504194906Z",
       "roster": [
         "antelder",
         "asanka",
@@ -4217,6 +4736,7 @@
         "isudana",
         "kasun",
         "miyuru",
+        "prabathar",
         "pzf",
         "rajikak",
         "ravi",
@@ -4227,12 +4747,13 @@
         "tijs",
         "upul",
         "uswick",
+        "vanji",
         "veithen"
       ]
     },
     "syncope": {
       "createTimestamp": "20121122152016Z",
-      "modifyTimestamp": "20161013122625Z",
+      "modifyTimestamp": "20171222084557Z",
       "roster": [
         "andreapatricelli",
         "coheigea",
@@ -4244,12 +4765,42 @@
         "jbernhardt",
         "jbonofre",
         "massi",
-        "mdisabatino"
+        "mdisabatino",
+        "skylark17"
+      ]
+    },
+    "systemml": {
+      "createTimestamp": "20170517231738Z",
+      "modifyTimestamp": "20170517231738Z",
+      "roster": [
+        "acs_s",
+        "ae2015",
+        "dbtsai",
+        "deron",
+        "dusenberrymw",
+        "fmakari",
+        "freiss",
+        "fschueler",
+        "gweidner",
+        "holden",
+        "hsaputra",
+        "jkbradley",
+        "lresende",
+        "mboehm7",
+        "meng",
+        "nakul02",
+        "niketanpansare",
+        "prithvi",
+        "pwendell",
+        "rbowen",
+        "reinwald",
+        "rxin",
+        "shirisht"
       ]
     },
     "tac": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20161215201927Z",
+      "modifyTimestamp": "20180215225036Z",
       "roster": [
         "cdutz",
         "darshankumar",
@@ -4257,7 +4808,6 @@
         "gsaini",
         "humbedooh",
         "issac",
-        "jani",
         "lewismc",
         "mbenson",
         "missy",
@@ -4267,19 +4817,17 @@
     },
     "tajo": {
       "createTimestamp": "20140324164653Z",
-      "modifyTimestamp": "20141208081541Z",
+      "modifyTimestamp": "20170919192521Z",
       "roster": [
         "akarasulu",
         "blrunner",
         "ereisman",
         "hjkim",
-        "hsaputra",
         "hyunsik",
         "jghoman",
         "jhkim",
         "jihoonson",
         "mattmann",
-        "omalley",
         "rsumbaly",
         "sirpkt",
         "swkim",
@@ -4288,9 +4836,10 @@
     },
     "tapestry": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20150320195951Z",
+      "modifyTimestamp": "20170407201229Z",
       "roster": [
         "andyhot",
+        "bobharner",
         "drobiazko",
         "hlship",
         "jkemnade",
@@ -4304,23 +4853,20 @@
     },
     "tcl": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20141125191632Z",
+      "modifyTimestamp": "20180322154032Z",
       "roster": [
         "bhdec",
         "damonc",
         "davidw",
-        "dirkx",
-        "mlink",
         "mxmanghi",
         "oehhar",
         "petasis",
-        "ridruejo",
         "ronnie"
       ]
     },
     "tez": {
       "createTimestamp": "20140718022100Z",
-      "modifyTimestamp": "20160504151508Z",
+      "modifyTimestamp": "20180326203114Z",
       "roster": [
         "acmurthy",
         "bikas",
@@ -4340,6 +4886,7 @@
         "julien",
         "kamrul",
         "kevinwilfong",
+        "kshukla",
         "mattmann",
         "mliddell",
         "namit",
@@ -4354,12 +4901,13 @@
         "tomwhite",
         "vikram",
         "vinodkv",
+        "zhiyuany",
         "zjffdu"
       ]
     },
     "thrift": {
       "createTimestamp": "20101027224416Z",
-      "modifyTimestamp": "20160125164833Z",
+      "modifyTimestamp": "20171103182543Z",
       "roster": [
         "bencraig",
         "bryanduxbury",
@@ -4370,6 +4918,7 @@
         "jake",
         "jensg",
         "jfarrell",
+        "jking",
         "mcslee",
         "molinaro",
         "nsuke",
@@ -4381,12 +4930,13 @@
     },
     "tika": {
       "createTimestamp": "20100511034918Z",
-      "modifyTimestamp": "20161102172801Z",
+      "modifyTimestamp": "20170831192512Z",
       "roster": [
         "aburgess",
         "amylka",
         "bob",
         "dmeikle",
+        "goyalmadhav",
         "grossws",
         "ingo",
         "jehrlich",
@@ -4429,7 +4979,7 @@
     },
     "tinkerpop": {
       "createTimestamp": "20160521101933Z",
-      "modifyTimestamp": "20160826213051Z",
+      "modifyTimestamp": "20170418151109Z",
       "roster": [
         "dkuppitz",
         "dmill",
@@ -4438,20 +4988,23 @@
         "humbedooh",
         "okram",
         "pluradj",
+        "rdale",
         "spmallette",
         "twilmes"
       ]
     },
     "tomcat": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20151026194036Z",
+      "modifyTimestamp": "20170518003052Z",
       "roster": [
         "billbarker",
         "costin",
+        "csutherl",
         "fhanik",
         "fschumacher",
         "funkman",
         "hgomez",
+        "huxing",
         "jboynes",
         "jfarcand",
         "jfclere",
@@ -4492,7 +5045,7 @@
     },
     "trafficserver": {
       "createTimestamp": "20100429230505Z",
-      "modifyTimestamp": "20160919143920Z",
+      "modifyTimestamp": "20170509141240Z",
       "roster": [
         "amc",
         "arno",
@@ -4501,6 +5054,7 @@
         "dcarlin",
         "dianes",
         "ericb",
+        "gancho",
         "humbedooh",
         "igalic",
         "jacksontj",
@@ -4521,6 +5075,7 @@
         "nottheoilrig",
         "oknet",
         "oschaaf",
+        "paziz",
         "rayray",
         "ryo",
         "shinrich",
@@ -4535,13 +5090,31 @@
         "zym"
       ]
     },
+    "trafodion": {
+      "createTimestamp": "20171220201354Z",
+      "modifyTimestamp": "20171220201354Z",
+      "roster": [
+        "amanda",
+        "dbirdsall",
+        "gtapper",
+        "jleroux",
+        "liuming",
+        "pierresmits",
+        "rmarton",
+        "selva",
+        "stack",
+        "sureshs",
+        "svarnau"
+      ]
+    },
     "turbine": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20131005162419Z",
+      "modifyTimestamp": "20171112090812Z",
       "roster": [
         "brekke",
         "gk",
         "hoffmann",
+        "painter",
         "pcourcoux",
         "seade",
         "sgoeschl",
@@ -4629,14 +5202,14 @@
     },
     "velocity": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20150601173857Z",
+      "modifyTimestamp": "20170728202014Z",
       "roster": [
-        "apetrelli",
         "cbrisson",
         "dlr",
         "geirm",
         "henning",
         "marino",
+        "michaelo",
         "nbubna",
         "sdumitriu",
         "wglass"
@@ -4656,8 +5229,8 @@
       ]
     },
     "whimsy": {
-      "createTimestamp": "20150527160114Z",
-      "modifyTimestamp": "20170123171125Z",
+      "createTimestamp": "20170622171721Z",
+      "modifyTimestamp": "20180325202711Z",
       "roster": [
         "brett",
         "clr",
@@ -4665,6 +5238,7 @@
         "jcarman",
         "jfarrell",
         "jim",
+        "johndament",
         "rgardler",
         "rubys",
         "sebb"
@@ -4672,7 +5246,7 @@
     },
     "wicket": {
       "createTimestamp": "20100210202117Z",
-      "modifyTimestamp": "20150629084326Z",
+      "modifyTimestamp": "20170413155642Z",
       "roster": [
         "adelbene",
         "akarasulu",
@@ -4700,30 +5274,10 @@
         "pedro",
         "pete",
         "sbriquet",
+        "solomax",
         "svenmeier",
         "thrantal",
         "tsoloschenko"
-      ]
-    },
-    "wink": {
-      "createTimestamp": "20130104053039Z",
-      "modifyTimestamp": "20130716010042Z",
-      "roster": [
-        "bluk",
-        "cjblythe",
-        "damrhei",
-        "dims",
-        "elib",
-        "elman",
-        "jramos",
-        "kevan",
-        "lresende",
-        "martins",
-        "nfischer",
-        "ngallardo",
-        "rfeng",
-        "rott",
-        "tomershadi"
       ]
     },
     "ws": {
@@ -4838,8 +5392,9 @@
     },
     "zeppelin": {
       "createTimestamp": "20160521101728Z",
-      "modifyTimestamp": "20160521101728Z",
+      "modifyTimestamp": "20180125185619Z",
       "roster": [
+        "ahyoungryu",
         "anthonycorbacho",
         "bzz",
         "corneadoug",
@@ -4848,22 +5403,25 @@
         "kevinkim",
         "minalee",
         "moon",
-        "prabhjyotsingh"
+        "prabhjyotsingh",
+        "zjffdu"
       ]
     },
     "zookeeper": {
       "createTimestamp": "20101123173345Z",
-      "modifyTimestamp": "20160807171743Z",
+      "modifyTimestamp": "20170621205617Z",
       "roster": [
         "breed",
         "camille",
         "cnauroth",
         "fpj",
+        "hanm",
         "henry",
         "ivank",
         "mahadev",
         "michim",
         "phunt",
+        "rakeshr",
         "rgs",
         "tdunning"
       ]
