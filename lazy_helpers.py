@@ -10,7 +10,7 @@ class LazyDriver(object):
             # Configure headless mode
             options = webdriver.ChromeOptions() #Oops
             options.add_argument('headless')
-            cls._driver = webdriver.Chrome(options)
+            cls._driver = webdriver.Chrome(chrome_options=options)
         return cls._driver
 
 
