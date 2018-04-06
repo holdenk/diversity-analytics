@@ -11,7 +11,17 @@ class LazyDriver(object):
             display = Display(visible=0, size=(800, 600))
             display.start()
             from selenium import webdriver
-            cls._driver = webdriver.Chrome()
+            # Configure headless mode
+            chrome_options = webdriver.ChromeOptions() #Oops
+            chrome_options.add_argument('--verbose')
+            chrome_options.add_argument('--ignore-certificate-errors')
+            log_path = "/tmp/chromelogpanda{0}".format(os.getpid())
+            if not os.path.exists(log_path):
+                os.mkdir(log_path)
+            chrome_options.add_argument("--log-path {0}/log.txt".format(log_path))
+            chrome_options.add_argument("--no-sandbox")
+            chrome_options.add_argument("--disable-setuid-sandbox")
+            cls._driver = webdriver.Chrome(chrome_options=chrome_options)
         return cls._driver
 
 
