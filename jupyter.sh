@@ -15,7 +15,9 @@ source secrets.sh
 # End secrets
 
 DEBIAN_FRONTEND=noninteractive
-sudo apt-get update
+# Debian mirrors aren't super reliable so dynamically rewrite because life is "awesome"
+sudo apt-get install -y aptitude
+sudo aptitude update || sudo apt-get update || sed  s/deb.debian/ftp.ca.debian/g /etc/apt/sources.list  > srclist && sudo mv srclist /etc/apt/sources.list && sudo apt-get update || echo "w/e hope this works"
 sudo apt-get install -y firefox-esr
 sudo apt-get install -y chromedriver
 sudo apt-get install -y xvfb
@@ -75,6 +77,9 @@ pip install meetup.api
 pip install PyVirtualDisplay
 pip install "tensorboard==1.7.0"
 pip install "tensorflow==1.7.0"
+pip install statsmodels
+python -m nltk.downloader vader_lexicon
+
 
 python -c "import spacy;spacy.load('en')" || python -m spacy download en
 
