@@ -75,13 +75,12 @@ pip install pyarrow
 pip install spacy
 pip install meetup.api
 pip install PyVirtualDisplay
-pip install "tensorboard==1.7.0"
-pip install "tensorflow==1.7.0"
 pip install statsmodels
-python -m nltk.downloader vader_lexicon
+pip install "tensorboard==1.7.0" "tensorflow==1.7.0" &
+python -m nltk.downloader vader_lexicon &
 
 
-python -c "import spacy;spacy.load('en')" || python -m spacy download en
+python -c "import spacy;spacy.load('en')" || python -m spacy download en &
 
 if [[ "${ROLE}" == 'Master' ]]; then
   conda install jupyter

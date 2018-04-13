@@ -8,9 +8,9 @@ class LazyDriver(object):
         import os
         if cls._driver is None:
             from pyvirtualdisplay import Display
-            cls._display = display
             display = Display(visible=0, size=(1024, 768))
             display.start()
+            cls._display = display
             from selenium import webdriver
             # Configure headless mode
             chrome_options = webdriver.ChromeOptions() #Oops
