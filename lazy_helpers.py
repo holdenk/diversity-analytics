@@ -8,7 +8,8 @@ class LazyDriver(object):
         import os
         if cls._driver is None:
             from pyvirtualdisplay import Display
-            display = Display(visible=0, size=(800, 600))
+            cls._display = display
+            display = Display(visible=0, size=(1024, 768))
             display.start()
             from selenium import webdriver
             # Configure headless mode
@@ -23,6 +24,11 @@ class LazyDriver(object):
             chrome_options.add_argument("--disable-setuid-sandbox")
             cls._driver = webdriver.Chrome(chrome_options=chrome_options)
         return cls._driver
+
+    @classmethod
+    def reset(cls):
+        cls._display.stop()
+        cls._driver.Dispose()
 
 
 class LazyPool(object):
