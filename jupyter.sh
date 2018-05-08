@@ -10,9 +10,21 @@
 
 set -exo pipefail
 
+# Begin secrets
 gsutil cp gs://boo-stuff/secrets.sh ./
 source secrets.sh
 # End secrets
+# Begin quasi related tf accel work
+gsutil cp gs://boo-stuff/tfs.tbz2 ./
+tar -xvf tfs.tbz2
+virtualenv --python=python3 /home/hkarau/tf_spark_venv_py3/
+source /home/hkarau/tf_spark_venv_py3/bin/activate
+pip install pyspark==2.3.0
+pushd TensorFlowOnSpark
+pip install -e .
+popd
+deactivate
+# End quasi related tf accel work
 
 DEBIAN_FRONTEND=noninteractive
 # Debian mirrors aren't super reliable so dynamically rewrite because life is "awesome"
@@ -21,6 +33,7 @@ sudo aptitude update || sudo apt-get update || sed  s/deb.debian/ftp.ca.debian/g
 sudo apt-get install -y firefox-esr
 sudo apt-get install -y chromedriver
 sudo apt-get install -y xvfb
+sudo apt-get install -y pssh
 wget https://github.com/mozilla/geckodriver/releases/download/v0.20.0/geckodriver-v0.20.0-linux64.tar.gz
 tar -xvf geckodriver-v0.20.0-linux64.tar.gz
 sudo mv geckodriver /bin/
@@ -77,6 +90,8 @@ pip install meetup.api
 pip install PyVirtualDisplay
 pip install statsmodels
 pip install "tensorboard==1.7.0" "tensorflow==1.7.0" &
+pip install coffee_boat
+pip install PyGithub
 python -m nltk.downloader vader_lexicon &
 
 
