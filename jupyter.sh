@@ -12,7 +12,10 @@ set -exo pipefail
 
 # Begin secrets
 gsutil cp gs://boo-stuff/secrets.sh ./
-source secrets.sh
+gsutil cp gs://boo-stuff/secrets.literal ./
+source ./secrets.sh
+mkdir -p ~/
+cat secrets.sh >> ~/.bashrc
 # End secrets
 # Begin quasi related tf accel work
 gsutil cp gs://boo-stuff/tfs.tbz2 ./
@@ -92,6 +95,8 @@ pip install statsmodels
 pip install "tensorboard==1.7.0" "tensorflow==1.7.0" &
 pip install coffee_boat
 pip install PyGithub
+pip install backoff
+# See issue: https://github.com/nteract/coffee_boat/issues/47
 python -m nltk.downloader vader_lexicon &
 
 
