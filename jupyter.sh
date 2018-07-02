@@ -96,6 +96,9 @@ pip install "tensorboard==1.7.0" "tensorflow==1.7.0" &
 pip install coffee_boat
 pip install PyGithub
 pip install backoff
+pip install twython
+pip install scipy
+pip install pandas
 # See issue: https://github.com/nteract/coffee_boat/issues/47
 python -m nltk.downloader vader_lexicon &
 
