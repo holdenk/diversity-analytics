@@ -79,6 +79,13 @@ if [ -n "${JUPYTER_CONDA_PACKAGES}" ]; then
 fi
 
 pip install --upgrade pip
+# TODO: Post sparklingml on pypi so we don't have to do this
+git clone git://github.com/sparklingpandas/sparklingml.git || echo "Already cloned"
+pushd sparklingml
+git pull
+./build/sbt assembly &
+sbt_pid=$!
+popd sparklingml
 # We end up using system pyspark anyways and pypandoc is having issues
 #pip install "pyspark==2.3.0"
 pip install perceval
@@ -101,17 +108,15 @@ pip install twython
 pip install scipy
 pip install numpy
 pip install pandas
+# Wait for sparklingml's sbt build to be finished then install the rest of sparklingml
+pushd sparklingml
+wait $sbt_pid || echo "sbt finished, no waiting required."
+pip install -e .
+popd
 # See issue: https://github.com/nteract/coffee_boat/issues/47
 python -m nltk.downloader vader_lexicon &
-# TODO: Post sparklingml on pypi so we don't have to do this
-git clone git://github.com/sparklingpandas/sparklingml.git || cd sparklingml; git pull
-pushd sparklingml
-./build/sbt assembly
- pip install -e .
-popd sparklingml
-
-
 python -c "import spacy;spacy.load('en')" || python -m spacy download en &
+
 
 if [[ "${ROLE}" == 'Master' ]]; then
   conda install jupyter
