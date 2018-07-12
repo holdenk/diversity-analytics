@@ -103,6 +103,12 @@ pip install numpy
 pip install pandas
 # See issue: https://github.com/nteract/coffee_boat/issues/47
 python -m nltk.downloader vader_lexicon &
+# TODO: Post sparklingml on pypi so we don't have to do this
+git clone git://github.com/sparklingpandas/sparklingml.git || cd sparklingml; git pull
+pushd sparklingml
+./build/sbt assembly
+ pip install -e .
+popd sparklingml
 
 
 python -c "import spacy;spacy.load('en')" || python -m spacy download en &
