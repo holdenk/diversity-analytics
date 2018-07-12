@@ -85,7 +85,7 @@ pushd sparklingml
 git pull
 ./build/sbt assembly &
 sbt_pid=$!
-popd sparklingml
+popd
 # We end up using system pyspark anyways and pypandoc is having issues
 #pip install "pyspark==2.3.0"
 pip install perceval
