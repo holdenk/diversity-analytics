@@ -82,8 +82,8 @@ pip install --upgrade pip
 # TODO: Post sparklingml on pypi so we don't have to do this
 git clone git://github.com/sparklingpandas/sparklingml.git || echo "Already cloned"
 pushd sparklingml
-git pull
-./build/sbt assembly &
+git pull || echo "Failed to update sparklingml, using old checkout"
+./build/sbt assembly &> sbt_outputlog &
 sbt_pid=$!
 popd
 # We end up using system pyspark anyways and pypandoc is having issues
@@ -108,15 +108,16 @@ pip install twython
 pip install scipy
 pip install numpy
 pip install pandas
+# See issue: https://github.com/nteract/coffee_boat/issues/47
+python -m nltk.downloader vader_lexicon &> vader_install_log &
+python -c "import spacy;spacy.load('en')" || python -m spacy download en &> spacy_install_en_log &
 # Wait for sparklingml's sbt build to be finished then install the rest of sparklingml
 pushd sparklingml
 wait $sbt_pid || echo "sbt finished, no waiting required."
-pip install -e .
+pip install -e . || echo "Failed to install sparklingml, soft skip."
 popd
-# See issue: https://github.com/nteract/coffee_boat/issues/47
-python -m nltk.downloader vader_lexicon &
-python -c "import spacy;spacy.load('en')" || python -m spacy download en &
-
+echo "Waiting on outstanding pip installs before proceeding."
+wait
 
 if [[ "${ROLE}" == 'Master' ]]; then
   conda install jupyter
