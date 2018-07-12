@@ -79,7 +79,8 @@ if [ -n "${JUPYTER_CONDA_PACKAGES}" ]; then
 fi
 
 pip install --upgrade pip
-pip install "pyspark==2.3.0"
+# We end up using system pyspark anyways and pypandoc is having issues
+#pip install "pyspark==2.3.0"
 pip install perceval
 pip install urllib3
 pip install beautifulsoup4
@@ -98,6 +99,7 @@ pip install PyGithub
 pip install backoff
 pip install twython
 pip install scipy
+pip install numpy
 pip install pandas
 # See issue: https://github.com/nteract/coffee_boat/issues/47
 python -m nltk.downloader vader_lexicon &
