@@ -119,11 +119,10 @@ pip install twython &
 pushd sparklingml
 pip install -e . || echo "Failed to install sparklingml, soft skip."
 popd
-echo "Waiting on outstanding pip installs before proceeding."
-wait
 
 if [[ "${ROLE}" == 'Master' ]]; then
-  wait $conda_pid
+  echo "Waiting on conda."
+  wait $conda_pid || echo "Conda finished"
 
   # For storing notebooks on GCS. Pin version to make this script hermetic.
   pip install jgscm==0.1.7
