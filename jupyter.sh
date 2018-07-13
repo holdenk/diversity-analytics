@@ -81,11 +81,18 @@ fi
 pip install --upgrade pip
 # TODO: Post sparklingml on pypi so we don't have to do this
 git clone git://github.com/sparklingpandas/sparklingml.git || echo "Already cloned"
+chown -R yarn sparklingml
 pushd sparklingml
 git pull || echo "Failed to update sparklingml, using old checkout"
 ./build/sbt assembly &> sbt_outputlog &
 sbt_pid=$!
 popd
+conda install -c anaconda nltk scipy pandas
+conda install -c conda-forge spacy
+
+# See issue: https://github.com/nteract/coffee_boat/issues/47
+python -m nltk.downloader vader_lexicon &> vader_install_log &
+python -c "import spacy;spacy.load('en')" || python -m spacy download en &> spacy_install_en_log &
 # We end up using system pyspark anyways and pypandoc is having issues
 #pip install "pyspark==2.3.0"
 pip install perceval
@@ -94,23 +101,15 @@ pip install beautifulsoup4
 pip install requests
 pip install "selenium==3.6.0"
 pip install zope.interface
-pip install nltk
 pip install pyarrow
-pip install spacy
 pip install meetup.api
 pip install PyVirtualDisplay
 pip install statsmodels
-pip install "tensorboard==1.7.0" "tensorflow==1.7.0" &
+# pip install "tensorboard==1.7.0" "tensorflow==1.7.0" &
 pip install coffee_boat
 pip install PyGithub
 pip install backoff
 pip install twython
-pip install scipy
-pip install numpy
-pip install pandas
-# See issue: https://github.com/nteract/coffee_boat/issues/47
-python -m nltk.downloader vader_lexicon &> vader_install_log &
-python -c "import spacy;spacy.load('en')" || python -m spacy download en &> spacy_install_en_log &
 # Wait for sparklingml's sbt build to be finished then install the rest of sparklingml
 pushd sparklingml
 wait $sbt_pid || echo "sbt finished, no waiting required."
