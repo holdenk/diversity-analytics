@@ -114,10 +114,9 @@ pip install statsmodels
 pip install coffee_boat
 pip install PyGithub
 pip install backoff
-pip install twython
+pip install twython &
 # Wait for sparklingml's sbt build to be finished then install the rest of sparklingml
 pushd sparklingml
-wait $sbt_pid || echo "sbt finished, no waiting required."
 pip install -e . || echo "Failed to install sparklingml, soft skip."
 popd
 echo "Waiting on outstanding pip installs before proceeding."
