@@ -90,6 +90,11 @@ popd
 conda install -c anaconda nltk scipy pandas
 conda install -c conda-forge spacy
 
+if [[ "${ROLE}" == 'Master' ]]; then
+  conda install jupyter &
+  conda_pid=$!
+fi
+
 # See issue: https://github.com/nteract/coffee_boat/issues/47
 python -m nltk.downloader vader_lexicon &> vader_install_log &
 python -c "import spacy;spacy.load('en')" || python -m spacy download en &> spacy_install_en_log &
@@ -119,7 +124,7 @@ echo "Waiting on outstanding pip installs before proceeding."
 wait
 
 if [[ "${ROLE}" == 'Master' ]]; then
-  conda install jupyter
+  wait $conda_pid
 
   # For storing notebooks on GCS. Pin version to make this script hermetic.
   pip install jgscm==0.1.7
