@@ -9,6 +9,7 @@
 # INIT_ACTIONS_BRANCH metadata keys.
 
 set -exo pipefail
+echo "Running V: Boo-1"
 
 # Begin secrets
 gsutil cp gs://boo-stuff/secrets.sh ./
@@ -87,17 +88,15 @@ git pull || echo "Failed to update sparklingml, using old checkout"
 ./build/sbt assembly &> sbt_outputlog &
 sbt_pid=$!
 popd
-conda install -c anaconda nltk scipy pandas
+conda install -c anaconda nltk scipy pandas jupyter
 conda install -c conda-forge spacy
-
-if [[ "${ROLE}" == 'Master' ]]; then
-  conda install jupyter &
-  conda_pid=$!
-fi
+pip install --upgrade pip &
+pip_pid=$!
 
 # See issue: https://github.com/nteract/coffee_boat/issues/47
 python -m nltk.downloader vader_lexicon &> vader_install_log &
 python -c "import spacy;spacy.load('en')" || python -m spacy download en &> spacy_install_en_log &
+wait $pip_pid || echo "Already upgraded pip"
 # We end up using system pyspark anyways and pypandoc is having issues
 #pip install "pyspark==2.3.0"
 pip install perceval
@@ -114,9 +113,12 @@ pip install statsmodels
 pip install coffee_boat
 pip install PyGithub
 pip install backoff
-pip install twython &
+pip install gender-guesser
+pip install nameparser
+pip install Genderize
 # Wait for sparklingml's sbt build to be finished then install the rest of sparklingml
-pushd sparklingml
+wait $sbt_pid || echo "sbt_pid already installed"
+pushd /sparklingml
 pip install -e . || echo "Failed to install sparklingml, soft skip."
 popd
 
@@ -130,6 +132,7 @@ if [[ "${ROLE}" == 'Master' ]]; then
   ./dataproc-initialization-actions/jupyter/internal/setup-jupyter-kernel.sh
   ./dataproc-initialization-actions/jupyter/internal/launch-jupyter-kernel.sh
 fi
+pip install twython &
 echo "Completed installing Jupyter!"
 
 # Install Jupyter extensions (if desired)
