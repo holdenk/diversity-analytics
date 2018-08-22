@@ -118,6 +118,7 @@ pip install backoff
 pip install gender-guesser
 pip install nameparser
 pip install Genderize
+pip install vegas
 # Wait for sparklingml's sbt build to be finished then install the rest of sparklingml
 wait $sbt_pid || echo "sbt_pid already installed"
 pushd /sparklingml
