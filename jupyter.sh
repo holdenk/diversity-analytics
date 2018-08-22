@@ -121,6 +121,8 @@ wait $sbt_pid || echo "sbt_pid already installed"
 pushd /sparklingml
 pip install -e . || echo "Failed to install sparklingml, soft skip."
 popd
+# nltk data needs to be readable by the user we run as
+chown -R yarn /home/nltk_data
 
 if [[ "${ROLE}" == 'Master' ]]; then
   echo "Waiting on conda."
