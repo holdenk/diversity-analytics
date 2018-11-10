@@ -94,6 +94,8 @@ pip install --upgrade pip &
 pip_pid=$!
 
 # See issue: https://github.com/nteract/coffee_boat/issues/47
+mkdir -p /home/nltk_data
+chown -R yarn /home/nltk_data
 python -m nltk.downloader vader_lexicon &> vader_install_log &
 python -c "import spacy;spacy.load('en')" || python -m spacy download en &> spacy_install_en_log &
 wait $pip_pid || echo "Already upgraded pip"
@@ -121,6 +123,9 @@ wait $sbt_pid || echo "sbt_pid already installed"
 pushd /sparklingml
 pip install -e . || echo "Failed to install sparklingml, soft skip."
 popd
+# nltk data needs to be readable by the user we run as
+chown -R yarn /home/nltk_data
+cat vader_install_log
 
 if [[ "${ROLE}" == 'Master' ]]; then
   echo "Waiting on conda."
