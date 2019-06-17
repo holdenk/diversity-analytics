@@ -9,44 +9,17 @@
 # INIT_ACTIONS_BRANCH metadata keys.
 
 set -exo pipefail
-echo "Running V: Boo-1"
+echo "Running V: Boo-2"
 
+gsutil cp gs://boo-stuff/extra.sh ./
+chmod a+x extra.sh
 # Begin secrets
 gsutil cp gs://boo-stuff/secrets.sh ./
 gsutil cp gs://boo-stuff/secrets.literal ./
 source ./secrets.sh
 mkdir -p ~/
 cat secrets.sh >> ~/.bashrc
-# End secrets
-# Begin quasi related tf accel work
-gsutil cp gs://boo-stuff/tfs.tbz2 ./
-tar -xvf tfs.tbz2
-virtualenv --python=python3 /home/hkarau/tf_spark_venv_py3/
-source /home/hkarau/tf_spark_venv_py3/bin/activate
-pip install pyspark==2.3.0
-pushd TensorFlowOnSpark
-pip install -e .
-popd
-deactivate
-# End quasi related tf accel work
 
-DEBIAN_FRONTEND=noninteractive
-# Debian mirrors aren't super reliable so dynamically rewrite because life is "awesome"
-sudo apt-get install -y aptitude
-sudo aptitude update || sudo apt-get update || sed  s/deb.debian/ftp.ca.debian/g /etc/apt/sources.list  > srclist && sudo mv srclist /etc/apt/sources.list && sudo apt-get update || echo "w/e hope this works"
-sudo apt-get install -y firefox-esr
-sudo apt-get install -y chromedriver
-sudo apt-get install -y xvfb
-sudo apt-get install -y pssh
-wget https://github.com/mozilla/geckodriver/releases/download/v0.20.0/geckodriver-v0.20.0-linux64.tar.gz
-tar -xvf geckodriver-v0.20.0-linux64.tar.gz
-sudo mv geckodriver /bin/
-
-export PATH="$PATH:/usr/lib/chromium/"
-echo "export PATH=\"\$PATH:/usr/lib/chromium/\"" >> /etc/bash.bashrc
-
-# Hack
-wget https://raw.githubusercontent.com/holdenk/diversity-analytics/master/lazy_helpers.py
 
 readonly ROLE="$(/usr/share/google/get_metadata_value attributes/dataproc-role)"
 readonly INIT_ACTIONS_REPO="$(/usr/share/google/get_metadata_value attributes/INIT_ACTIONS_REPO \
@@ -64,9 +37,13 @@ echo "Cloning fresh dataproc-initialization-actions from repo ${INIT_ACTIONS_REP
 git clone -b "${INIT_ACTIONS_BRANCH}" --single-branch "${INIT_ACTIONS_REPO}"
 
 # Ensure we have conda installed.
+chmod a+x ./dataproc-initialization-actions/conda/*.sh
 ./dataproc-initialization-actions/conda/bootstrap-conda.sh
 
-source /etc/profile.d/conda.sh
+# Hack
+wget https://raw.githubusercontent.com/holdenk/diversity-analytics/master/lazy_helpers.py &
+
+source /etc/profile
 
 if [ -n "${JUPYTER_CONDA_CHANNELS}" ]; then
   echo "Adding custom conda channels '${JUPYTER_CONDA_CHANNELS//:/ }'"
@@ -79,66 +56,21 @@ if [ -n "${JUPYTER_CONDA_PACKAGES}" ]; then
   conda install ${JUPYTER_CONDA_PACKAGES//:/ }
 fi
 
-pip install --upgrade pip
-# TODO: Post sparklingml on pypi so we don't have to do this
-git clone git://github.com/sparklingpandas/sparklingml.git || echo "Already cloned"
-chown -R yarn sparklingml
-pushd sparklingml
-git pull || echo "Failed to update sparklingml, using old checkout"
-./build/sbt assembly &> sbt_outputlog &
-sbt_pid=$!
-popd
-conda install -c anaconda nltk scipy pandas jupyter
-conda install -c conda-forge spacy
-pip install --upgrade pip &
-pip_pid=$!
+# Install jupyter on all nodes to start with a consistent python environment
+# on all nodes. Also, pin the python version to ensure that conda does not
+# update python because the latest version of jupyter supports a higher version
+# than the one already installed. See issue #300 for more information.
+PYTHON="$(ls /opt/conda/bin/python || which python)"
+PYTHON_VERSION="$(${PYTHON} --version 2>&1 | cut -d ' ' -f 2)"
+conda install jupyter matplotlib "python==${PYTHON_VERSION}"
 
-# See issue: https://github.com/nteract/coffee_boat/issues/47
-mkdir -p /home/nltk_data
-chown -R yarn /home/nltk_data
-python -m nltk.downloader vader_lexicon &> vader_install_log &
-python -c "import spacy;spacy.load('en')" || python -m spacy download en &> spacy_install_en_log &
-wait $pip_pid || echo "Already upgraded pip"
-# We end up using system pyspark anyways and pypandoc is having issues
-#pip install "pyspark==2.3.0"
-pip install perceval
-pip install urllib3
-pip install beautifulsoup4
-pip install requests
-pip install "selenium==3.6.0"
-pip install zope.interface
-pip install pyarrow
-pip install meetup.api
-pip install PyVirtualDisplay
-pip install statsmodels
-# pip install "tensorboard==1.7.0" "tensorflow==1.7.0" &
-pip install coffee_boat
-pip install PyGithub
-pip install backoff
-pip install gender-guesser
-pip install nameparser
-pip install Genderize
-pip install vegas
-# Wait for sparklingml's sbt build to be finished then install the rest of sparklingml
-wait $sbt_pid || echo "sbt_pid already installed"
-pushd /sparklingml
-pip install -e . || echo "Failed to install sparklingml, soft skip."
-popd
-# nltk data needs to be readable by the user we run as
-chown -R yarn /home/nltk_data
-cat vader_install_log
+# For storing notebooks on GCS. Pin version to make this script hermetic.
+pip install jgscm==0.1.7
 
 if [[ "${ROLE}" == 'Master' ]]; then
-  echo "Waiting on conda."
-  wait $conda_pid || echo "Conda finished"
-
-  # For storing notebooks on GCS. Pin version to make this script hermetic.
-  pip install jgscm==0.1.7
-
   ./dataproc-initialization-actions/jupyter/internal/setup-jupyter-kernel.sh
   ./dataproc-initialization-actions/jupyter/internal/launch-jupyter-kernel.sh
 fi
-pip install twython &
 echo "Completed installing Jupyter!"
 
 # Install Jupyter extensions (if desired)
@@ -151,3 +83,10 @@ if [[ "${INSTALL_JUPYTER_EXT}" = true ]]; then
   ./dataproc-initialization-actions/jupyter/internal/bootstrap-jupyter-ext.sh
   echo "Jupyter Notebook extensions installed!"
 fi
+
+echo "Starting extra..."
+whoami
+./extra.sh &> /tmp/extra_log &
+extra_pid=$!
+disown $extra_pid
+echo "Done."
