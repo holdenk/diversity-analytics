@@ -9,7 +9,7 @@
 # INIT_ACTIONS_BRANCH metadata keys.
 
 set -exo pipefail
-echo "Running V: Boo-2"
+echo "Running V: Boo-3"
 
 gsutil cp gs://boo-stuff/extra.sh ./
 chmod a+x extra.sh
@@ -61,6 +61,10 @@ fi
 # update python because the latest version of jupyter supports a higher version
 # than the one already installed. See issue #300 for more information.
 PYTHON="$(ls /opt/conda/bin/python || which python)"
+PYSPARK_PYTHON="${PYTHON}"
+PYSPARK_DRIVER_PYTHON="${PYTHON}"
+export PYSPARK_PYTHON
+export PYSPARK_DRIVER_PYTHON
 PYTHON_VERSION="$(${PYTHON} --version 2>&1 | cut -d ' ' -f 2)"
 conda install jupyter matplotlib "python==${PYTHON_VERSION}"
 
@@ -83,6 +87,8 @@ if [[ "${INSTALL_JUPYTER_EXT}" = true ]]; then
   ./dataproc-initialization-actions/jupyter/internal/bootstrap-jupyter-ext.sh
   echo "Jupyter Notebook extensions installed!"
 fi
+
+
 
 echo "Starting extra..."
 whoami
